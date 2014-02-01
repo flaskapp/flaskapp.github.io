@@ -1,0 +1,470 @@
+/* =============================================================================
+   HTML5 Boilerplate CSS: h5bp.com/css
+   ========================================================================== */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html, button, input, select, textarea { font-family: sans-serif; color: #333; }
+body { margin: 0; font-size: 1em; line-height: 1.4; }
+
+::-moz-selection { background: #41B9BA; color: #fff; text-shadow: none; }
+::selection { background: #999; color: #fff; text-shadow: none; }
+
+a { color: #BE6539; }
+a.a02 { color: #CCFFFF; }
+a:visited { color: #BE6539; }
+a.a02:visited { color: #CCFFFF; }
+a:hover { color: #FF9900; }
+a.a02:hover { color: #FFCC33; }
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0; }
+
+abbr[title] { border-bottom: 1px dotted; }
+b, strong { font-weight: bold; }
+blockquote { margin: 1em 40px; }
+dfn { font-style: italic; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+ins { background: #ff9; color: #000; text-decoration: none; }
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+pre, code, kbd, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em; }
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+small { font-size: 85%; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+svg:not(:root) { overflow: hidden; }
+
+figure { margin: 0; }
+
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+label { cursor: pointer; }
+legend { border: 0; *margin-left: -7px; padding: 0; white-space: normal; }
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+button, input { line-height: normal; }
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; *overflow: visible; }
+button[disabled], input[disabled] { cursor: default; }
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; *width: 13px; *height: 13px; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+input:valid, textarea:valid {  }
+input:invalid, textarea:invalid { background-color: #f0dddd; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+
+/* =============================================================================
+   Styles
+   ========================================================================== */
+@font-face {
+	font-family: 'BebasNeue';
+	src: url('../BebasNeue.otf');
+}
+/* header */
+#main-container h1#title {
+	margin: 10px 0 10px 0;
+	padding: 50px 0 10px 100px;
+	background: #fff url(../img/logo.png) no-repeat left 50px;
+	font-family: 'Passion One', sans-serif;
+	font-size: 60px;
+	color: #333;
+	font-weight: normal;
+}
+
+/* main */
+#main-container {
+	background-color: #fff;
+	color: #3F3F33;
+}
+#main-container h1 {
+	margin: 0 0 0 0;
+	font-size: 45px;
+	font-family: 'Passion One', sans-serif;
+	font-weight: normal;
+}
+#main-container h2 {
+	margin: 0 0 10px 0;
+	line-height: 1.2;
+	font-size: 20px;
+
+}
+.jp #main-container h2 {
+	font-size: 20px;
+	line-height: 1.4;
+}
+#main-container p {
+	font-size: 16px;
+	color: #333;
+}
+#main-container header .en {
+	margin: 0 0 20px 0;
+	font-family: 'Passion One', sans-serif;
+	font-weight: normal;
+}
+#main01 {
+	background-color: #fff;
+	color: #333;
+}
+#main02 {
+	background-color: #eee;
+	color: #333;
+}
+#main03 {
+	background-color: #fff;
+	color: #3F3F33;
+}
+
+#main01 section {
+	padding-top: 40px;
+}
+#main02 section {
+	padding-top: 20px;
+}
+#main03 section {
+	padding-top: 40px;
+}
+.left {
+	float: left;
+	width: 300px;
+}
+.right {
+	float: right;
+	width: 560px;
+}
+
+#main-container p.cp01 {
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+#main-container p.cp02 {
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.jp #main-container p.cp02 {
+	font-size: 22px;
+}
+#main02 .wrapper .clearfix {
+	float: left;
+	width: 460px;
+}
+#main02 p.icon {
+	float: left;
+	width: 72px;
+	margin-right: 10px;
+}
+#main02 h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 16px;
+}
+#main02 h2 a {
+	color: #333;
+}
+#main02 p {
+	margin-top: 0;
+	font-size: 14px;
+}
+#main-container section {
+	margin: 0 auto;
+	padding-bottom: 10px;
+	width: 920px;
+}
+#main-container #main03 p{
+	font-size: 16px;
+}
+#main03 .left {
+	width: 550px;
+}
+#main03 .left h2.en {
+	margin-top: 30px;
+	padding: 19px 0 15px 0px;
+	font-size: 22px;
+	line-height: 1.4;
+}
+#main03 .right {
+	width: 350px;
+}
+#main03 .right h3 {
+	margin-top: 10px;
+	margin-bottom: 0;
+	font-size: 30px;
+	line-height: 1.2;
+}
+#main03 .right p {
+	margin-top: 10px;
+	font-size: 14px;
+}
+#main03 .memberphoto {
+	margin-bottom: 20px;
+	float: left;
+	width: 120px;
+}
+#main03 .memberphoto img {
+	border: 2px solid #fff;
+}
+#main04 p {
+	margin: 30px 0 20px 0;
+	text-align: center;
+	font-size: 20px;	
+}
+#main04 a {
+	font-size: 50px;
+}
+/* footer */
+#footer-container {
+}
+.facebook {
+	margin-bottom: 30px;
+	float: left;
+	width: 460px;
+}
+.twitter {
+	margin-bottom: 30px;
+	float: right;
+	width: 460px;
+}
+footer {
+	margin: 0 auto 0 auto;
+	padding: 30px 0 50px 0;
+	clear: both;
+	width: 920px;
+	font-size: 14px;
+}
+footer p {
+	width: 500px;
+	float: left;
+}
+
+#footer-container footer nav {
+	width: 300px;
+	float: right;
+	margin: 0 0 20px 0;
+	padding: 10px 10px 10px 10px;
+	display: block;
+	width: 180px;
+	text-align: center;
+	color: #333;
+}
+#footer-container footer nav a {
+	margin: 0;
+	text-align: center;
+	color: #FF9900;
+	text-decoration: underline;
+}
+#footer-container footer nav a:hover,
+#footer-container footer nav a.lang01,
+.jp #footer-container footer nav a.lang02,
+.jp #footer-container footer nav a.lang01:hover {
+	color: #E56000;
+}
+.jp #footer-container footer nav a.lang01 {
+	color: #FF9900;
+}
+
+/* common */
+.en {
+	font-family: 'BebasNeue', sans-serif;
+	font-weight: normal;
+}
+.box {
+	margin: 0 0 1em 0;
+	padding: 1em 1em;
+	border-radius: 5px; /* CSS3草案 */ 
+	-webkit-border-radius: 5px; /* Safari,Google Chrome用 */ 
+	-moz-border-radius: 5px; /* Firefox用 */
+}
+.box h2 {
+}
+.box ul {
+	margin: 0;
+	font-size: 18px;
+}
+.box li {
+	margin: 0;
+	padding: 0;
+}
+.alignright {
+	margin-top: 10px;
+	text-align: right;
+}
+.facebook {
+	padding-top: 30px;
+}
+.appstore {
+	margin-bottom: 30px;
+	text-align: center;
+}
+/* lightbox */
+#lightbox ul {
+	margin-left: -5px;
+	_margin-left: -10px;
+	padding: 0;
+}
+#lightbox li {
+	list-style: none;
+	float: left;
+	margin-left: 5px;
+}
+#lightbox li img {
+	border: 3px solid #2F0104;
+}
+
+
+/* =============================================================================
+   Non-Semantic Helper Classes
+   ========================================================================== */
+
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
+.ir br { display: none; }
+.hidden { display: none !important; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+/* =============================================================================
+   lightBox
+   ========================================================================== */
+/**
+ * jQuery lightBox plugin
+ * This jQuery plugin was inspired and based on Lightbox 2 by Lokesh Dhakar (http://www.huddletogether.com/projects/lightbox2/)
+ * and adapted to me for use like a plugin from jQuery.
+ * @name jquery-lightbox-0.5.css
+ * @author Leandro Vieira Pinho - http://leandrovieira.com
+ * @version 0.5
+ * @date April 11, 2008
+ * @category jQuery plugin
+ * @copyright (c) 2008 Leandro Vieira Pinho (leandrovieira.com)
+ * @license CCAttribution-ShareAlike 2.5 Brazil - http://creativecommons.org/licenses/by-sa/2.5/br/deed.en_US
+ * @example Visit http://leandrovieira.com/projects/jquery/lightbox/ for more informations about this jQuery plugin
+ */
+#jquery-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 500px;
+}
+#jquery-lightbox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	line-height: 0;
+}
+#jquery-lightbox a img { border: none; }
+#lightbox-container-image-box {
+	position: relative;
+	background-color: #fff;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+}
+#lightbox-container-image { padding: 10px; }
+#lightbox-loading {
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+}
+#lightbox-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+}
+#lightbox-container-image-box > #lightbox-nav { left: 0; }
+#lightbox-nav a { outline: none;}
+#lightbox-nav-btnPrev, #lightbox-nav-btnNext {
+	width: 49%;
+	height: 100%;
+	zoom: 1;
+	display: block;
+}
+#lightbox-nav-btnPrev { 
+	left: 0; 
+	float: left;
+}
+#lightbox-nav-btnNext { 
+	right: 0; 
+	float: right;
+}
+#lightbox-container-image-data-box {
+	font: 10px Verdana, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0 auto;
+	line-height: 1.4em;
+	overflow: auto;
+	width: 100%;
+	padding: 0 10px 0;
+}
+#lightbox-container-image-data {
+	padding: 0 10px; 
+	color: #666; 
+}
+#lightbox-container-image-data #lightbox-image-details { 
+	width: 70%; 
+	float: left; 
+	text-align: left; 
+}	
+#lightbox-image-details-caption { font-weight: bold; }
+#lightbox-image-details-currentNumber {
+	display: block; 
+	clear: left; 
+	padding-bottom: 1.0em;	
+}			
+#lightbox-secNav-btnClose {
+	width: 66px; 
+	float: right;
+	padding-bottom: 0.7em;	
+}
+
+/* =============================================================================
+   Print Styles
+   ========================================================================== */
+ 
+@media print {
+  * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* h5bp.com/t */
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
