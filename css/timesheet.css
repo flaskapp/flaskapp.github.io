@@ -1,0 +1,101 @@
+@import url(http://fonts.googleapis.com/css?family=Didact+Gothic);
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Didact Gothic', sans-serif;
+}
+.logo {
+	margin-top: 20px;
+	font-size: 50px;
+	font-weight: bold;
+	color: #26374B;
+}
+.titlebox{
+	text-align: center;
+}
+@media (min-width: 980px) {
+	.titlebox{
+		padding-top: 240px;
+		padding-right: 30px;
+	}
+}
+.logo small {
+	display: block;
+	margin-top: 5px;
+	color: #999;
+	font-size: 16px;
+}
+@media (min-width: 768px) {
+	h1.logo small {
+		display: inline;
+	}
+}
+h1 small {
+	font-size: 0.4em;
+}
+.page-header {
+	margin-top: 3em;
+}
+.page-header h1 small {
+	font-size: 0.5em;
+}
+.jumbotron {
+	background: url('../img/main.jpg') no-repeat;
+	color: #fff;
+}
+.thumbnail {
+	margin-bottom: 30px;
+}
+.img-thumbnail {
+	margin-bottom: 0;
+	padding: 0;
+	border: none;
+}
+.btn {
+	border-radius: 4px;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+.text-left {
+	text-align: left;
+}
+table th {
+	min-width: 80px;
+}
+
+.underlogo {
+	font-size: 20px;
+}
+.mainimage {
+	margin-top: 60px;
+	width: 100%;
+	height: auto;
+}
+.btn-primary {
+	background-color: #32BFCE;
+}
+.btn-primary:hover,
+.btn-primary:active {
+	background-color: #2CABB8;
+}
+a {
+	color: #32BFCE;
+}
+a:hover,
+a:active {
+	color: #2CABB8;
+}
+.helpimage {
+	margin-top: 20px;
+	width: 100%;
+	height: auto;
+}
+@media (min-width: 640px) {
+	.helpimage {
+		margin-top: 40px;
+		width: 640px;
+	}
+}
