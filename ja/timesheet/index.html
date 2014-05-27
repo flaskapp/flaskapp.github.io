@@ -1,88 +1,58 @@
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Timesheet - 作業時間ログ by Flask</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../../css/bootstrap.min.css" media="screen">
-  <link rel="stylesheet" href="../../css/timesheet.css" media="screen">
-  <link rel="stylesheet" href="../../css/font-awesome.min.css">
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="../../js/jquery.smooth-scroll.js"></script>
-  <script type="text/javascript" src="../../js/script.js"></script>
-  <link rel="shortcut icon" href="../../timesheet/favicon.ico">
+<html lang="ja"><head>
+
+	<meta charset="utf-8"><title>Timesheet 作業時間ログ for iPhone</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="../../css/font-awesome.min.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="../../timesheet/js/jquery.magnific-popup.min.js"></script> 
+	<link rel="stylesheet" href="../../timesheet/css/normalize.min.css">
+	<link rel="stylesheet" href="../../timesheet/css/magnific-popup.css">
+	<link rel="stylesheet" href="../../timesheet/css/style.css">
+	<script>
+	$(document).ready(function() {
+		$('.popup-youtube').magnificPopup({
+			disableOn: 700,
+			type: 'iframe',
+			mainClass: 'mfp-fade',
+			removalDelay: 160,
+			preloader: false,
+
+			fixedContentPos: false
+		});
+	});
+	</script>
 </head>
 
-<body>
-<div class="container">
-<div class="row"><div class="col-lg-12">
+<body class="en">
 
-<div class="container">
-
-	<div class="text-right"><br><a href="../../jp/" class="btn btn-primary"><i class="fa fa-flask"></i> About Us</a></div>
-
-	<div class="row">
-		<div class="col-lg-6">
-			<div class="titlebox">
-				<h1 class="logo">Timesheet</h1>
-				<p class="underlogo">作業時間ログ for iPhone</p>
-				<p><a href="https://itunes.apple.com/us/app/timesheet-time-tracker/id870644777?mt=8"><img src="../../img/Available.png" alt="Timesheet on App Store"></a></p>
-			</div>
-		</div>
-		<div class="col-lg-6">
-			<a href="https://itunes.apple.com/us/app/timesheet-time-tracker/id870644777?mt=8"><img src="../../img/ts_main.png" height="600" width="600" alt="Timesheet Image" class="mainimage"></a>
-		</div>
-
-</div>
-
-
-<div class="container">
-	<div class="page-header">
-		<h1><i class="icon-user"></i> Team</h1>
-	</div>
-
-	<div class="row">
-		<div class="col-lg-6">
-			<h3>Hideko Ogawa</h3>
-			<p>Programmer</p>
-			<p><img src="../../img/photo_ogawa.jpg" height="100" width="100" alt="" class="img-circle"></p>
-		</div>
-		<div class="col-lg-6">
-			<h3>Takako Hori</h3>
-			<p>UI Designer</p>
-			<p><img src="../../img/photo_hori.jpg" height="100" width="100" alt="" class="img-circle"></p>
+<div class="hero cf">
+	<div class="navbar-top">
+		<div class="content">
+		<a href="../../"><i class="icon-beaker"></i> Flask LLP</a>
 		</div>
 	</div>
+	<div class="content">
+		
+		<div class="hero-text">
+			<h1>Timesheet</h1>
+			<p class="hero-copy">作業時間ログ for iPhone</p>
+			<p class="hero-store">
+				<a href="http://www.youtube.com/watch?v=zoKr0hlbh8Y" class="popup-youtube"><img src="../../timesheet/img/btn_video.png" alt="Video"></a> 
+				<a href="https://itunes.apple.com/jp/app/id870644777?mt=8"><img src="../../timesheet/img/btn_appstore.png" alt="Download on the App Store"></a></p>
+		</div>
 
-</div><!-- /container-->
+		<div class="hero-img">
+			<img src="../../timesheet/img/main.png" alt="Timesheet" width="640" height="532">
+		</div>
 
+	</div><!-- content -->
+</div><!-- hero -->
 
-<div class="container" id="contact">
-
-	<div class="page-header">
-	<h1><i class="icon-envelope"></i> Contact Us</h1>
-	</div>
-
-	<a class="btn btn-primary" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#102;&#108;&#97;&#115;&#107;&#97;&#112;&#112;&#46;&#99;&#111;&#109;">&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#102;&#108;&#97;&#115;&#107;&#97;&#112;&#112;&#46;&#99;&#111;&#109;</a></p>
-	<br><br><br>
-
-</div><!-- /container #contact-->
-
-</div></div><!-- /row col-lg-12 -->
-
-	<hr>
-
-<div class="container">
-	<div class="row"><div class="col-lg-12">
-		<footer>
-			<p>© Flask LLP |  <a href="../../timesheet/">English</a> / <a href="../../ja/timesheet/">Japanese</a></p>
-			<br><br><br>
-		</footer>
-	</div></div><!-- /row col-lg-12 -->
-</div>
-
+<div class="footer cf">
+	<p class="link"><a href="../../">About Us</a></p>
+	<p class="copyright">© Flask LLP |  <a href="../../timesheet/">English</a> / <a href="../../ja/timesheet/">Japanese</a></p>
 </div>
 
 <script>
@@ -93,8 +63,6 @@
 
   ga('create', 'UA-44428360-1', 'flaskapp.com');
   ga('send', 'pageview');
-
 </script>
 
-</body>
-</html>
+</body></html>
