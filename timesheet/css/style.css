@@ -1,5 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400);
-@import url(http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700);
 
 body {
 	margin: 0;
@@ -57,7 +56,6 @@ a:hover {
 	padding: 10px 0;
 	background-color:rgba(0,0,0,0.2);
 	font-size: 20px;
-	font-family: 'Maven Pro', sans-serif;
 	font-weight: 500;
 }
 .hero-text {
@@ -116,6 +114,122 @@ a:hover {
 	color: #555;
 }.footer .copyright a:hover {
 	color: #999;
+}
+
+/* help ---------------------------------------- */
+
+.container-help {
+	padding: 0 30px 30px 30px;
+	background-color: #fff;
+}
+@media screen and (max-width:640px){
+	.container-help {
+		padding: 0 15px 30px 15px;
+	}
+}
+.container-help .content {
+	max-width: 1000px;
+	width: 100%;
+}
+.container-help .navbar-top {
+	background-color:rgba(255,255,255,1);
+	text-align: left;
+}
+.container-help .navbar-top a {
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: normal;
+	background-color:rgba(255,255,255,1);
+}
+.container-help h1 {
+	margin-top: 0;
+	padding-top: 20px;
+	font-size: 36px;
+	color: #26374B;
+}
+.container-help h2 {
+	margin-top: 52px;
+	padding-bottom: 10px; 
+	font-size: 24px;
+	color: #26374B;
+	border-bottom: 1px solid #26374B;
+}
+
+@media screen and (max-width:640px){
+	.container-help img {
+		max-width: 100%;
+		height: auto;
+	}
+	.container-help img.keep {
+		max-width: inherit;
+		height: inherit;
+	}
+}
+.container-help .wrap-sidetext div:first-child {
+	width: 320px;
+	float: left;
+}
+.container-help .wrap-sidetext div:last-child {
+	width: 650px;
+	float: right;
+}
+@media screen and (max-width:640px){
+	.container-help .wrap-sidetext div:first-child,
+	.container-help .wrap-sidetext div:last-child {
+		width: 100%;
+		float: none;
+	}
+}
+.container-help .wrap-video {
+	width: 640px;
+}
+@media screen and (max-width:640px){
+	.container-help .wrap-video {
+		width: 100%;
+	}
+}
+.container-help .wrap-video .video {
+    position: relative;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    padding-bottom: 50%;
+    padding-top: 69px;
+    overflow: hidden;
+}
+ 
+.container-help .wrap-video .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.container-help dt {
+	margin-bottom: 0.5em;
+	font-weight: bold;
+}
+.container-help dd {
+	margin-bottom: 1em;
+	font-weight: normal;
+}
+.container-help li {
+	margin-bottom: 0.5em;
+}
+.container-help table {
+	margin: 1em 0;
+	border-collapse: collapse;
+}
+.container-help th {
+	border: #cfcfcf 1px solid;
+	text-align: left;
+	padding: 10px;
+	font-weight: normal;
+	background-color: #efefef;
+}
+.container-help td {
+	border: #cfcfcf 1px solid;
+	text-align: left;
+	padding: 10px;
 }
 
 /* For Mobile ---------------------------------------- */
