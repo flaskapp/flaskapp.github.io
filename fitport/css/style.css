@@ -44,6 +44,9 @@ a:hover {
 	background-size: cover;
 	color: #fff;
 }
+#coyomi .hero {
+	background: #38424A;
+}
 .hero a,
 .hero a:visited {
 	color: #fff;
