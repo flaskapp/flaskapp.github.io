@@ -173,7 +173,7 @@ footer {
 		width: 100%;
 		padding: 0 0 130px 0;
 		background-size: auto 300px;
-		background-position-x: center;		
+		background-position: center bottom; 	
 	}
 	.app-text {
 		margin: 0 auto;
