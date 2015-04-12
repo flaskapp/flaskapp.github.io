@@ -1,0 +1,219 @@
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro:700,400);
+
+body {
+	margin: 0 0 0 0;
+	background: #24292C;
+	text-align: center;
+}
+body, h1, h2, h3, h4, h5, p {
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: 400;
+	color: #fff;
+}
+a {
+	text-decoration: underline;
+	color: #fff;
+}
+.row {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-size: 40px;
+	font-weight: 700;
+}
+h1.logo {
+	margin: 0 0 14px 0;
+	font-size: 40px;
+	font-weight: 700;
+}
+p.cp {
+	font-size: 18px;
+	line-height: 1.6;
+}
+.head {
+	padding: 40px 0 50px 0;
+}
+.app-box {
+	margin: 0 auto;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: left bottom; 
+	background-size: auto 350px;
+	width: 1000px;
+	height: 380px;
+}
+.app-text {
+	margin: 0 0 0 auto;
+	padding: 80px 0 20px 0;
+	width: 500px;
+}
+.app-text h2 {
+	margin: 20px 0 20px 0;
+	font-size: 50px;	
+	font-weight: 700;
+	line-height: 1.0;
+}
+.app-text p {
+	margin: 20px 0 30px 0;
+	font-size: 18px;	
+}
+a.btn-app {
+	display: block;
+	width: 130px;
+	margin: 0 auto;
+	padding: 10px 14px 10px 14px;
+	text-align: center;
+	font-size: 20px;	
+	font-weight: 700;
+	border: 2px solid #fff;
+	border-radius: 30px;
+	text-decoration: none;
+}
+a.btn-app:hover {
+	background-color: #fff;
+	color: #555;
+}
+.box-line {
+	margin: 0 auto;
+	padding: 20px 0 40px 0;
+	width: 1000px;
+	border-bottom: 1px solid #555;
+}
+.box-line p {
+	padding: 0 1em;
+}
+.team {
+	margin: 35px auto 0 auto;
+	width: 1000px;}
+.person {
+	width: 400px;
+	float: left;
+}
+.person-image {
+	margin-left: 60px;
+	width: 140px;
+	float: left;
+}
+.person-text {
+	float: left;
+	text-align: left;
+}
+.person-text h2 {
+	margin: 5px 0 0 0;
+}
+.person-text p {
+	margin: 0;
+}
+.img-circle {
+	border-radius: 50px;
+}
+.btn-contact {
+	font-size: 24px;
+}
+footer {
+	padding: 30px 0 50px 0;
+}
+
+.app-coyomi {
+	background-color: #4C5A61;
+}
+.app-coyomi .app-box {
+	background-image: url(../img/img_coyomi.png);
+}
+.app-timesheet {
+	background-color: #2BBAC3;
+}
+.app-timesheet .app-box {
+	background-image: url(../img/img_timesheet.png);
+}
+.app-fitport {
+	background-color: #42758F;
+}
+.app-fitport .app-box {
+	background-image: url(../img/img_fitport.png);
+}
+.app-timelet {
+	background-color: #6FBCD3;
+}
+.app-timelet .app-box {
+	background-image: url(../img/img_timelet.png);
+}
+.app-popweight {
+	background-color: #B3BAC3;
+}
+.app-popweight .app-box {
+	background-image: url(../img/img_popweight.png);
+}
+.app-freshpantry {
+	background-color: #FDA32F;
+}
+.app-freshpantry .app-box {
+	background-image: url(../img/img_freshpantry.png);
+}
+.app-pictack {
+	background-color: #FF5659;
+}
+.app-pictack .app-box {
+	background-image: url(../img/img_pictack.png);
+}
+.app-dcc {
+	background-color: #8B897F;
+}
+.app-dcc .app-box {
+	background-image: url(../img/img_dcc.png);
+}
+.app-dcc .app-text h2 {
+	font-size: 40px;
+}
+
+@media (max-width: 1000px) {
+	.app-box {
+		width: 100%;
+		padding: 0 0 130px 0;
+		background-size: auto 300px;
+		background-position-x: center;		
+	}
+	.app-text {
+		margin: 0 auto;
+		padding: 10px 0 0 0;
+		width: 100%;
+	}
+	.box-line {
+		padding: 20px 0 40px 0;
+		width: 100%;
+	}
+	.team {
+		width: 100%;
+		text-align: center;
+	}
+	.person {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.person-image {
+		margin: 0 auto;
+		width: 140px;
+		float: none;
+	}
+	.person-text {
+		float: none;
+		text-align: center;
+	}
+	.person-text h2 {
+		margin: 8px 0 0 0;
+		font-size: 28px;
+	}
+	.person-text p {
+		margin: 0 0 40px 0;
+		padding: 0;
+	}
+}
+
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
