@@ -96,6 +96,10 @@ a:hover {
 	text-align: center;
 	overflow: hidden;
 }
+#coyomi .hero-img {
+	margin-top: 20px;
+	height: 540px;
+}
 
 /* footer ---------------------------------------- */
 
@@ -107,7 +111,7 @@ a:hover {
 }
 .footer .link,
 .footer .copyright {
-	margin: 5px;
+	margin: 5px 5px 1em 5px;
 }
 .footer .link a {
 	font-size: 24px;
@@ -259,6 +263,16 @@ a:hover {
 		height: auto; 
 	}
 	.hero-img {
+		margin: 30px 0 -3px 0;
+		padding: 0;
+		line-height: 1;
+		width: 100%;
+		height: auto;
+		float: none;
+		text-align: center;
+		overflow: hidden;
+	}
+	#coyomi .hero-img {
 		margin: 30px 0 -3px 0;
 		padding: 0;
 		line-height: 1;
