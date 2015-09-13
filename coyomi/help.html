@@ -21,9 +21,24 @@
 
 	<div class="content">
 		<h1><i class="icon-smile"></i> Help</h1>
-		<h2>GUIDES</h2>
+
+		<div class="toc">
+			<h3>GUIDES</h3>
+			<ul>
+				<li><a href="#guide1">Setting of Holiday</a></li>
+				<li><a href="#guide2">Reference to calendars</a></li>
+			</ul>
+			<h3>FAQ / TROUBLESHOOTING</h3>
+			<ul>
+				<li><a href="#faq1">Watch app doesn't work</a></li>
+				<li><a href="#faq2">Themes are not reflected on Watch</a></li>
+				<li><a href="#faq3">Calendar events didn't appear on Watch</a></li>
+			</ul>
+		</div><!-- toc -->
+
+		<h2 id="guide">GUIDES</h2>
 		<dl>
-			<dt>Setting of Holiday</dt>
+			<dt id="guide1">Setting of Holiday</dt>
 			<dd>
 				You can set in the calendar settings > holiday calendar in the iPhone Coyomi app.<br />
 				Day that something events in the set calendar has been set, will be the display of the holiday.
@@ -32,11 +47,41 @@
 				Normally , you may want to set the Holiday calendar which is installed by default.<br />
 				If you want a holiday to your own set , please set up your own calendar.
 			</dd>
-			<dt>Coyomi on Apple Watch doesn't work.</dt>
-			<dd>Please try to force quit the app. </dd>
-			<dd>1. You have to be in Coyomi app on the Apple Watch.<br />
-			2. Press and hold down the side button until the shut down screen appears.<br />
-			3. Press the side button again.</dd>
+
+			<dt id="guide2">Reference to calendars</dt>
+			<dd>Calendar events referenced to be displayed in the Watch app, depends on the type of your watchOS.</dd>
+			<dd>
+				<ul>
+					<li>watchOS1: Calendar on the iPhone</li>
+					<li>watchOS2: Calendar on the Apple Watch</li>
+				</ul>
+			</dd>
+		</dl>
+
+		<h2 id="faq">FAQ / TROUBLESHOOTING</h2>
+		<dl>
+			<dt id="faq1">Watch app doesn't work</dt>
+			<dd>Try to force restart the Apple Watch.</dd>
+			<dd>How to restart is here &gt; <a href="https://support.apple.com/en-us/HT204510">Restart your Apple Watch</a></dd>
+
+			<dt id="faq2">Themes are not reflected on Watch</dt>
+			<dd>Check the settings to launch the iPhone app of Coyomi if the settings.</dd>
+
+			<dt id="faq3">Calendar events didn't appear</dt>
+			<dd>
+				<dl>
+					<dt>Allow apps to access your calendar</dt>
+					<dd>iPhone Settings &gt; Privacy &gt; Calendars &gt; Coyomi  turn ON.</dd>
+
+					<dt>Can you see calendar events on the Calendar app in your iPhone or Apple Watch?</dt>
+					<dd>If you use a watchOS2, there is a possibility that synchronization to Apple Watch the calendar is not yet complete.<br />
+					Please check again after waiting for a while.</dd>
+
+					<dt>If still no good..?</dt>
+					<dd>Please try to start Coyomi iPhone app after restart of Apple Watch.</dd>
+				</dl>
+			</dd>
+
 		</dl>
 	</div><!-- content -->
 </div><!-- container container-help -->
