@@ -33,6 +33,7 @@
 				<li><a href="#faq1">Watchアプリが起動しない</a></li>
 				<li><a href="#faq2">Watchアプリでテーマが反映されない</a></li>
 				<li><a href="#faq3">カレンダーイベントが表示されない</a></li>
+				<li><a href="#faq4">イベント一覧画面の表示方法は？</a></li>
 			</ul>
 		</div><!-- toc -->
 
@@ -60,11 +61,14 @@
 		<h2 id="faq">FAQ / TROUBLESHOOTING</a></h2>
 		<dl>
 			<dt id="faq1">Watchアプリが起動しない</dt>
+			<dd>起動のローディング状態のまま もしくは "Failed to install" と表示される場合。</dd>
 			<dd>Apple Watchの再起動をお試し下さい。<br />
-			再起動の方法はこちら <a href="https://support.apple.com/ja-jp/HT204510">Apple Watch を再起動する</a></dd>
+			再起動の方法はこちら <a href="https://support.apple.com/ja-jp/HT204510">Apple サポート - Apple Watch を再起動する</a></dd>
 
 			<dt id="faq2">Watchアプリでテーマが反映されない</dt>
 			<dd>こよみiPhoneアプリを起動して設定を再確認して下さい。</dd>
+			<dd>watchOS2の場合、アップデート直後にテーマなどの設定がWatch上に反映されない状態になることがあります。<br />
+				この場合、こよみiPhoneアプリを一度起動すると正常に動作するようになります。</dd>
 
 			<dt id="faq3">カレンダーイベントが表示されない</dt>
 			<dd>
@@ -72,13 +76,26 @@
 					<dt>カレンダーの読込が許可されていますか？</dt>
 					<dd>iPhoneの 設定 &gt; プライバシー &gt; カレンダー &gt; こよみ をONに設定します。</dd>
 
-					<dt>カレンダーイベントがiPhone or Apple Watchのカレンダーアプリで表示されていますか？</dt>
-					<dd>watchOS2をご利用の場合、Apple Watchのカレンダーへの同期がまだ完了していない可能性もあります。<br />
-					しばらく待ってから再度ご確認ください。</dd>
+					<dt>カレンダーイベントが iPhone, Apple Watch のカレンダーアプリで表示されていますか？</dt>
+					<dd>表示されない場合は、iPhoneのカレンダー設定を再確認してください。</dd>
+
+					<dd>watchOS2をご利用の場合、<br />
+						Apple Watchカレンダーへの同期がまだ完了していない可能性もあります。<br />
+					  しばらく待ってから再度ご確認ください。<br />
+					  しばらく待っても同期されない場合、同期をリセットすると改善する場合があるようです。<br />
+						iPhoneの Watchアプリ（コンパニオンアプリ）で、一般 &gt; リセット &gt; 同期データをリセット をします。<br />
+						参考リンク: <a href="https://discussions.apple.com/message/28286835#28286835">Apple Support Communities - Some calendar events not showing on Apple watch</a>
 
 					<dt>上記はすべて正常だけど表示出来ない場合</dt>
 					<dd>	Apple Watchの再起動後、こよみiPhoneアプリを起動してみてください。</dd>
 				</dl>
+			</dd>
+
+			<dt id="faq4">イベント一覧画面の表示方法は？</dt>
+			<dd><img src="../../coyomi/img/eventlist.png" /><br />
+				こよみWatchアプリで、カレンダー部分をタップすると表示されます。<br />
+				Glanceでは表示できません。<br />
+				イベントカレンダーの設定がない場合には表示されません。
 			</dd>
 		</dl>
 	</div><!-- content -->
