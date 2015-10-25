@@ -172,7 +172,12 @@ footer {
 .app-dcc .app-box {
 	background-image: url(../img/img_dcc.png);
 }
-
+.app-onepath {
+	background-color: #2AA7C5;
+}
+.app-onepath .app-box {
+	background-image: url(../img/img_onepath.png);
+}
 
 @media (max-width: 1000px) {
 	.app-box {
