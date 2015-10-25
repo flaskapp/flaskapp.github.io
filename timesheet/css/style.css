@@ -68,11 +68,11 @@ a:hover {
 	font-weight: normal;
 }
 .hero-copy{
-	margin: 0 0 5px 0;
-	font-size: 20px;
+	margin: 10px 0 5px 0;
+	font-size: 18px;
 }
 .hero-store {
-	margin-top: 40px;
+	margin-top: 20px;
 }
 .hero-store img {
 	margin: 5px;
