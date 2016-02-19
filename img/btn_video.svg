@@ -10,8 +10,8 @@
                 <rect id="Rectangle-26" fill="#F8F8F8" sketch:type="MSShapeGroup" x="0" y="0" width="135" height="40" rx="8"></rect>
                 <circle id="Oval-39" fill="#262E32" sketch:type="MSShapeGroup" cx="26" cy="20" r="11"></circle>
                 <path d="M23,25 L23,15 L31,20 L23,25 Z" id="Triangle-1" fill="#F8F8F8" sketch:type="MSShapeGroup"></path>
-                <text id="Video" sketch:type="MSTextLayer" font-family="Avenir Next" font-size="21" font-weight="526" sketch:alignment="middle" line-spacing="28" fill="#333333">
-                    <tspan x="52.5" y="29">Video</tspan>
+                <text id="Video" sketch:type="MSTextLayer" font-family="Avenir Next" font-size="20" font-weight="420" sketch:alignment="middle" line-spacing="28" fill="#171717">
+                    <tspan x="53.49" y="27">Video</tspan>
                 </text>
             </g>
         </g>
