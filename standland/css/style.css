@@ -23,7 +23,7 @@ body.en h4 {
 
 .content {
 	margin: 0 auto;
-	width: 1000px;
+	width: 900px;
 }
 .cf:after{
 	content: "";
@@ -31,22 +31,20 @@ body.en h4 {
 	display: block;
 }
 a {
-	color: #32BFCE;
+	color: #24A5B0;
 }
 a:hover {
-	color: #89D3DB;
+	color: #2FC6D4;
 }
 
 /* hero ---------------------------------------- */
 
 .hero {
-	/*background: #3B454D url('../img/bg.jpg') 50% 50%;*/
-	background: #3B454D;
+	background-color: #246E86;
+	background-image: url('../img/bg.jpg');
+	background-position: 50% bottom;;
 	background-size: cover;
 	color: #fff;
-}
-#coyomi .hero {
-	background: #38424A;
 }
 .hero a,
 .hero a:visited {
@@ -58,13 +56,21 @@ a:hover {
 }
 .navbar-top {
 	padding: 10px 0;
-	background-color:rgba(0,0,0,0.2);
+	background-color: #0F1A20;
 	font-size: 20px;
 	font-weight: 500;
 }
 .hero-text {
-	padding-top: 60px;
-	text-align: center;
+	width: 450px;
+	float: right;
+	padding-top: 180px;
+}
+.hero-img {
+	width: 280px;
+	float: left;
+	padding-left: 140px;
+	padding-top: 100px;
+	padding-bottom: 60px;
 }
 .hero-text h1 {
 	margin: 0;
@@ -92,14 +98,8 @@ a:hover {
 	transform:scale(1.2,1.2);
 }
 .hero-img {
-	margin-top: 40px;
-	height: 517px;
 	text-align: center;
 	overflow: hidden;
-}
-#coyomi .hero-img {
-	margin-top: 20px;
-	height: 540px;
 }
 
 /* footer ---------------------------------------- */
@@ -251,29 +251,27 @@ a:hover {
 		padding: 4px 6px;
 		text-align: center;
 	}
+	.hero {
+		background-color: #246E86;
+		background-image: url('../img/bg.jpg');
+		background-position: 20% top;
+		background-size: cover;
+		color: #fff;
+	}
 	.hero-text {
 		padding-top: 50px;
 		width: 100%;
+		text-align: center;
 	}
 	.hero-text h1 {
 		font-size: 40px;
 	}
 	.hero-text h1 img {
 		text-align: center;
-		width: 90%;
+		width: 60%;
 		height: auto;
 	}
 	.hero-img {
-		margin: 30px 0 -3px 0;
-		padding: 0;
-		line-height: 1;
-		width: 100%;
-		height: auto;
-		float: none;
-		text-align: center;
-		overflow: hidden;
-	}
-	#coyomi .hero-img {
 		margin: 30px 0 -3px 0;
 		padding: 0;
 		line-height: 1;
