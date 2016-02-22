@@ -5,8 +5,15 @@ body {
 	padding: 0;
 	font-family: 'Lato', sans-serif;
 	font-size: 16px;
-	color: #222;
-	background-color: #f9f9f9;
+	color: #ddd;
+  background-color: #182933;
+}
+body#top {
+	background-image: url('../img/bg.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 p {
 	line-height: 1.4;
@@ -23,7 +30,7 @@ body.en h4 {
 
 .content {
 	margin: 0 auto;
-	width: 900px;
+	width: 980px;
 }
 .cf:after{
 	content: "";
@@ -31,19 +38,16 @@ body.en h4 {
 	display: block;
 }
 a {
-	color: #24A5B0;
+	color: #fff;
+	text-decoration-line: underline;
 }
 a:hover {
-	color: #2FC6D4;
+	color: #C8EFEC;
 }
 
 /* hero ---------------------------------------- */
 
 .hero {
-	background-color: #246E86;
-	background-image: url('../img/bg.jpg');
-	background-position: 50% bottom;;
-	background-size: cover;
 	color: #fff;
 }
 .hero a,
@@ -63,13 +67,13 @@ a:hover {
 .hero-text {
 	width: 450px;
 	float: right;
-	padding-top: 180px;
+	padding-top: 220px;
 }
 .hero-img {
-	width: 280px;
+	width: 300px;
 	float: left;
 	padding-left: 140px;
-	padding-top: 100px;
+	padding-top: 120px;
 	padding-bottom: 60px;
 }
 .hero-text h1 {
@@ -107,7 +111,6 @@ a:hover {
 .footer {
 	margin: 0 0 0 0;
 	padding: 30px 5px;
-	background-color: #f9f9f9;
 	text-align: center;
 }
 .footer .link,
@@ -119,16 +122,15 @@ a:hover {
 	text-decoration: none;
 }
 .footer .copyright a {
-	color: #555;
+	color: #ccc;
 }.footer .copyright a:hover {
-	color: #999;
+	color: #C8EFEC;
 }
 
 /* help ---------------------------------------- */
 
 .container-help {
 	padding: 0 30px 30px 30px;
-	background-color: #fff;
 }
 @media screen and (max-width:640px){
 	.container-help {
@@ -140,26 +142,24 @@ a:hover {
 	width: 100%;
 }
 .container-help .navbar-top {
-	background-color:rgba(255,255,255,1);
 	text-align: left;
 }
 .container-help .navbar-top a {
 	text-decoration: none;
 	font-size: 18px;
 	font-weight: normal;
-	background-color:rgba(255,255,255,1);
 }
 .container-help h1 {
 	margin-top: 0;
 	padding-top: 20px;
 	font-size: 36px;
-	color: #26374B;
+	color: #fff;
 }
 .container-help h2 {
 	margin-top: 52px;
 	padding-bottom: 10px;
 	font-size: 24px;
-	color: #26374B;
+	color: #fff;
 	border-bottom: 1px solid #26374B;
 }
 
@@ -250,13 +250,6 @@ a:hover {
 	.navbar-top {
 		padding: 4px 6px;
 		text-align: center;
-	}
-	.hero {
-		background-color: #246E86;
-		background-image: url('../img/bg.jpg');
-		background-position: 20% top;
-		background-size: cover;
-		color: #fff;
 	}
 	.hero-text {
 		padding-top: 50px;
