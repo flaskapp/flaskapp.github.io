@@ -110,7 +110,7 @@ a:hover {
 
 .footer {
 	margin: 0 0 0 0;
-	padding: 30px 5px;
+	padding: 30px 5px 150px 5px;
 	text-align: center;
 }
 .footer .link,
@@ -160,7 +160,15 @@ a:hover {
 	padding-bottom: 10px;
 	font-size: 24px;
 	color: #fff;
-	border-bottom: 1px solid #26374B;
+	border-bottom: 1px solid #fff;
+}
+
+.container-help h3 {
+	margin-top: 52px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	color: #fff;
+	border-bottom: 1px #ccc dashed;
 }
 
 @media screen and (max-width:640px){
@@ -291,7 +299,11 @@ a:hover {
 		width: 94%;
 		text-align: left;
 	}
+	.container-help p {
+		font-size: 0.9em;
+	}
 }
+
 /**
  * Simple fade transition,
  */
