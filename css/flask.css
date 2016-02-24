@@ -43,6 +43,9 @@ p.cp {
 	width: 1000px;
 	height: 380px;
 }
+.app-standland .app-box {
+	height: 390px;
+}
 .app-text {
 	margin: 0 0 0 auto;
 	padding: 80px 0 20px 0;
@@ -58,10 +61,12 @@ p.cp {
 	font-size: 36px;
 }
 .app-text p {
-	margin: 20px 0 30px 0;
+	margin: 20px 0 25px 0;
 	font-size: 17px;
 }
-a.btn-app {
+
+a.btn-app,
+a.btn-app:visited {
 	display: block;
 	width: 130px;
 	margin: 0 auto;
