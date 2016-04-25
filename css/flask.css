@@ -189,6 +189,16 @@ footer {
 .app-onepath .app-box {
 	background-image: url(../img/img_onepath.png);
 }
+dl, dt, dd {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.news dt {
+	margin-top: 1em;
+	font-weight: bold;
+}
+
 
 @media (max-width: 1000px) {
 	.app-box {
