@@ -5,8 +5,8 @@ body {
 	padding: 0;
 	font-family: 'Maven Pro', sans-serif;
 	font-size: 16px;
-	color: #fff;
-	background-color: #BE7832;
+	color: #333;
+	background-color: #FEF7F0;
 }
 p {
 	line-height: 1.4;
@@ -25,10 +25,10 @@ h1, h2, h3, h4 {
 	display: block;
 }
 a {
-	color: #fff;
+	color: #654C09;
 }
 a:hover {
-	color: #FFD28D;
+	color: #EE973F;
 }
 
 /* hero ---------------------------------------- */
@@ -41,11 +41,11 @@ a:hover {
 }
 .hero a,
 .hero a:visited {
-	color: #fff;
+	color: #654C09;
 	text-decoration: none;
 }
 .hero a:hover {
-	color: #ccc;
+	color: #EE973F;
 }
 .navbar-top {
 	padding: 5px 0;
@@ -106,9 +106,9 @@ a:hover {
 	font-weight: 900;
 }
 .footer .copyright a {
-	color: #ccc;
+	color: #654C09;
 }.footer .copyright a:hover {
-	color: #FFD28D;
+	color: #EE973F;
 }
 
 .toc {
@@ -139,7 +139,7 @@ a:hover {
 	}
 
 	.hero-img {
-		margin: 0px 0 -3px 0;
+		margin: 0px 0 -10px 0;
 		padding: 0;
 		line-height: 1;
 		width: 100%;
