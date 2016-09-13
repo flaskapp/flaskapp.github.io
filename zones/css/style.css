@@ -68,7 +68,7 @@ a:hover {
 }
 .navbar-top {
 	padding: 10px 0 10px 0;
-	background-color: #0F1A20;
+	background-color: #000;
 	font-size: 20px;
 	font-weight: 700;
 }
@@ -257,7 +257,7 @@ a:hover {
 .container-help {
 	padding: 0 0 30px 0;
 	font-family: sans-serif;
-	background-color: #333;
+	background-color: #222;
 	color: #fff;
 }
 .container-help a {
