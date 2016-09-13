@@ -122,7 +122,12 @@ a.btn-app:hover {
 footer {
 	padding: 30px 0 50px 0;
 }
-
+.app-zones {
+	background-color: #1B1A1A;
+}
+.app-zones .app-box {
+	background-image: url(../img/img_zones.png);
+}
 .app-bitlist {
 	background-color: #C8DB5F;
 }
@@ -151,7 +156,7 @@ footer {
 	background-color: #18323F;
 }
 .app-standland .app-box {
-	background-image: url(../img/img_standland.png);
+	background-image: url(../img/img_standland2.png);
 }
 .app-timelet {
 	background-color: #6FBCD3;
