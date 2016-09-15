@@ -528,6 +528,60 @@ a:hover {
 		height: auto;
 	}
 }
+.presskit-hero {
+	color: #fff;
+	background-color: #000000;
+	background-image: url('../img/bg.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	height: 360px;
+	overflow: hidden;
+}
+
+.presskit-hero img {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+.presskit-hero .hero-text {
+	text-align: center;	
+	width: 30%;
+}
+.presskit-hero .hero-img {
+	text-align: center;
+	width: 60%;
+	padding: 0;
+	margin: 0;
+}
+@media screen and (max-width:640px){
+	.presskit-hero {
+		background-image: none;
+		background-color: #000;
+		height: auto;
+	}
+	.presskit-hero .hero-text {
+		padding-top: 30px;
+		width: 100%;
+		text-align: center;
+	}
+	.presskit-hero .hero-text img {
+		text-align: center;
+		width: 40%;
+		height: auto;
+	}
+	.presskit-hero .hero-img {
+		margin: 30px 0 -3px 0;
+		padding: 0;
+		line-height: 1;
+		width: 100%;
+		height: auto;
+		float: none;
+		text-align: center;
+		overflow: hidden;
+	}
+}
+.presskit-img {
+}
 
 /* For Mobile ---------------------------------------- */
 
