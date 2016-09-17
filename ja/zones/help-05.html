@@ -23,30 +23,49 @@
 	<div class="content">
 		<h1><i class="fa fa-smile-o"></i> ヘルプ</h1>
 
-		<h2>ワークアウトが記録できません</h2>
+		<h2>ルートマップが表示されない</h2>
 
-		<h3>記録ができませんと表示される場合</h3>
-		<img src="./img/help05_01.png" width="156px"><br />
-		<p>
-			<a href="./help-00.html">ヘルスケアへの許可設定時</a>に、"不許可" を選択した場合に発生します。<br />
-			許可に変更してから再度お試しください。<br />
-		</p>
+		<p>Zonesでは、GPSの位置情報を記録し、ルートマップとして表示します。<br />
+			表示されない場合、以下をご確認ください。</p>
 
-		<h3 id="healthaccess">ヘルスケア アクセス許可変更方法</h3>
-		<p>
+		<h3>1. 対象のアクティビティかどうか</h3>
+
+		<p>以下のアクティビティタイプの場合に記録をします。<br />
+		それ以外の場合は、記録されません</p>
+
+		<ul>
+			<li>ランニング</li>
+			<li>ウォーキング</li>
+			<li>サイクリング</li>
+			<li>クロストレーニング</li>
+			<li>有酸素運動</li>
+			<li>車椅子ペースランニング</li>
+			<li>車椅子ペースウォーキング</li>
+		</ul>
+		<p>※ 但し「室内」の場合は記録しません。</p>
+
+		<h3>2. Zonesで記録したワークアウトかどうか</h3>
+		<p>Zonesアプリで記録したワークアウトのみ表示されます。</p>
+
+		<h3>3. 位置情報の取得が許可されているか</h3>
+
+		<p>確認方法</p>
 			<ol>
-				<li><a href="https://support.apple.com/ja-jp/HT203037">iPhoneのヘルスケア App</a>を開く</li>
-				<li>タブバーの「ソース」をタップ</li>
+				<li>iPhoneの設定アプリを開く</li>
 				<li>Zonesをタップ</li>
-				<li>書き込み許可のスイッチを全てONに</li>
+				<li>位置情報が「使用中のみ」になっている</li>
 			</ol>
+			<img src="./img/help05_01.png" width="187px" />
+		<p>「許可しない」となっていた場合は、許可に変更してください。<br />
+			<img src="./img/help05_02.png" width="187px" />
 		</p>
+
 	</div><!-- content -->
 </div><!-- container container-help -->
 
 <div class="footer cf">
 	<div class="content">
-		<p class="copyright">© Flask LLP |  <a href="../../zones/help-01.html">English</a> / Japanese</p>
+		<p class="copyright">© Flask LLP |  <a href="../../zones/help-05.html">English</a> / Japanese</p>
 	</div><!-- content -->
 </div>
 
