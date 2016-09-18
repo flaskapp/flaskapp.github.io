@@ -242,6 +242,9 @@ a:hover {
 .container-help {
 	padding: 0 30px 30px 30px;
 }
+.container-help p {
+	font-family: sans-serif;
+}
 @media screen and (max-width:640px){
 	.container-help {
 		padding: 0 15px 30px 15px;
