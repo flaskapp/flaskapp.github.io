@@ -544,6 +544,7 @@ a:hover {
 	border: none;
 }
 .presskit-hero .hero-text {
+	padding-top: 130px;
 	text-align: center;	
 	width: 30%;
 }
