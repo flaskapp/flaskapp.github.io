@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+
+	<meta charset="utf-8"><title>ヘルプ | Zones</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="/zones/img/favicon.ico">
+	<link rel="apple-touch-icon" href="/zones/img/apple-touch-icon.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../../css/normalize.min.css">
+	<link rel="stylesheet" href="../../zones/css/style.css">
+</head>
+
+<body class="en">
+
+<div class="container container-help">
+
+	<div class="navbar-top">
+		<div class="content">
+		<a href="help.html"><i class="fa fa-chevron-left"></i> Zones ヘルプ目次</a>
+		</div>
+	</div>
+
+	<div class="content">
+		<h1><i class="fa fa-smile-o"></i> ヘルプ</h1>
+
+		<h2>他アプリで登録したワークアウトの表示について</h2>
+
+		<p>
+			Zonesでは<a href="https://support.apple.com/ja-jp/HT203037">ヘルスケア</a>(HealthKit)経由で、他アプリで登録したワークアウトが表示できます。<br />
+			ヘルスケアとの連携は、各アプリの設定より行うことができます。
+		</p>
+
+		<dl>
+			<dt><a href="https://itunes.apple.com/jp/app/id300235330">RunKeeper</a> の場合</dt>
+			<dd>Settings ＞ Apps,Services, and Devices ＞ Apple Health を設定します。</dd>
+			<dt><a href="https://itunes.apple.com/jp/app/id387771637">Nike+ Run Club</a> の場合<dt>
+			<dd>アプリインストール時にヘルスケアへの接続を促されます。<br />
+			こちらも参考にしてください。<br />
+			<a href="http://support-en-gb.nikeplus.com/app/answers/detail/a_id/58005">CONNECT THE NIKE+ RUNNING APP (IOS) WITH APPLE'S HEALTH APP</a></dd>
+			<dt><a href="https://itunes.apple.com/jp/app/id336599882">Runtastic</a> の場合</dt>
+			<dd>設定 > パートナーアカウント ＞ Apple Health をONにします。</dd>
+		</dl>
+		<p>※最新の情報は各アプリを参照してください</p>
+
+		<p>もちろん、iPhoneのヘルスケアApp や、Apple WatchのワークアウトAppで記録したものも表示できます。</p>
+
+		<h3>心拍数について</h3>
+		<p>心拍数もヘルスケア(HealthKit)から読込します。<br />
+			ワークアウト中の心拍数情報を元にゾーン時間や運動強度を判定します。</p>
+
+		<h3>距離データについて</h3>
+		<p>
+			ワークアウトに紐付けられた距離データがあればそれを読み込みます。<br />
+			紐付けがない場合には、ヘルスケアの距離データを利用しますが、スプリットの表示はされません。<br />
+			紐付けがあるかどうかは、ヘルスケアAppのワークアウトの詳細から確認ができます。
+		</p>
+		<p>
+			現時点では、アプリにより距離データの紐付け内容に差があります。<br />
+			<table>
+				<tr><td></td><td>紐付け有無</td><td>ポーズ中の紐付け有無</td></tr>
+				<tr><td>Zones</td><td>あり</td><td>なし</td></tr>
+				<tr><td>Apple WatchのワークアウトApp</td><td>あり</td><td>なし</td></tr>
+				<tr><td>RunKeeper</td><td>あり</td><td>なし</td></tr>
+				<tr><td>Nike+ Run Club</td><td>あり</td><td>あり</td></tr>
+				<tr><td>Runtastic</td><td>なし</td><td>なし</td></tr>
+			</table>
+			Zonesは、標準のワークアウトAppに合わせています。
+		</p>
+
+		<h3>スプリットタイムについて</h3>
+		<p>
+			ワークアウトに距離データの紐付けがある場合は、スプリットタイムが表示されます。<br />
+			但し、距離データが1kmより小さい場合には表示されません。
+		</p>
+		<p>
+			ペースの計算では、ポーズ時間を除いた時間を使用します。<br />
+			紐付いた距離データはそのまま使用します。<br />
+		</p>
+		<p>
+			Zonesでは標準付属のアクティビティAppに挙動を合せていますが、現時点では値にズレがあります。<br />
+			これは、アクティビティAppの方の計算方法が間違っていると思われるため、現在Appleにバグレポートを提出中です。
+		</p>
+		<p>
+			Nike+ Run Clubの場合は、<br />
+			距離データの扱いが違うため、ポーズしている場合は正しいスプリットタイムが表示されません。<br />
+			（Zonesでの表示は、実際よりも早いペースになる可能性があります。)
+		</p>
+		<p>
+			RunKeeperの場合は、<br />
+			スプリットのペースはポーズ中の時間も含めた時間で計算していると思われるため値がズレる可能性があります。<br />
+		</p>
+		<p>
+			Runtasticの場合は、<br />
+			距離データがWorkoutに紐付けされていないため、スプリットは表示されません。
+		<p>
+			※これは、2016/10月の時点の情報です。
+		</p>
+
+	</div><!-- content -->
+</div><!-- container container-help -->
+
+<div class="footer cf">
+	<div class="content">
+		<p class="copyright">© Flask LLP |  <a href="../../zones/help-05.html">English</a> / Japanese</p>
+	</div><!-- content -->
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44428360-1', 'flaskapp.com');
+  ga('send', 'pageview');
+</script>
+
+</body></html>
