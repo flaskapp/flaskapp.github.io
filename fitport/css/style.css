@@ -162,6 +162,16 @@ a:hover {
 	border-bottom: 1px solid #26374B;
 }
 
+.container-help h3 {
+	margin-top: 52px;
+	padding-bottom: 10px; 
+	font-size: 20px;
+	font-weight: bold;
+	color: #26374B;
+	border-bottom: 1px solid #ccc;
+}
+
+
 @media screen and (max-width:640px){
 	.container-help img {
 		max-width: 100%;
