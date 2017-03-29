@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+
+	<meta charset="utf-8"><title>Help | Zones</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="/zones/img/favicon.ico">
+	<link rel="apple-touch-icon" href="/zones/img/apple-touch-icon.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/normalize.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="en">
+
+<div class="container container-help">
+
+	<div class="navbar-top">
+		<div class="content">
+		<a href="help.html"><i class="fa fa-chevron-left"></i> Zones Help Index</a>
+		</div>
+	</div>
+
+	<div class="content">
+		<h1><i class="fa fa-smile-o"></i> Help</h1>
+
+		<h2>Workouts registered by other app</h2>
+		<p>
+			You can see workouts registered with other app via <a href="https://support.apple.com/en-US/HT203037">Apple Health</a> (HealthKit).
+		</p>
+
+		<dl>
+			<dt><a href="https://itunes.apple.com/jp/app/id300235330">RunKeeper</a></dt>
+			<dd>Connect Apple Health in  Settings ＞ Apps,Services, and Devices.</dd>
+			<dt><a href="https://itunes.apple.com/jp/app/id336599882">Runtastic</a></dt>
+			<dd>Turn on Apple Health in Settings > Partner Accounts</dd>
+			<dt><a href="https://itunes.apple.com/jp/app/id387771637">Nike+ Run Club.</a><dt>
+			<dd>You will be prompted to connect to Apple Health during application installation.<br />
+			<a href="http://support-en-gb.nikeplus.com/app/answers/detail/a_id/58005">CONNECT THE NIKE+ RUNNING APP (IOS) WITH APPLE'S HEALTH APP</a></dd>
+			<dt><a href="https://itunes.apple.com/jp/app/id426826309">Strava</a></dt>
+			<dd>Connect Health in More ＞ Settings ＞ Link Other Services</dd>
+		</dl>
+
+		<p>Of course, you can also display what you recorded with iPhone's Health App or Apple Watch's Workout App.</p>
+
+		<h3>About heart rate</h3>
+		<p>Heart rate is read from <a href="https://support.apple.com/en-US/HT203037">Apple Health</a>.<br />
+			Regardless of whether or not there is connected with workout,
+			zone time and exercise intensity are judged based on all heart rate recorded in Apple Health.
+		</p>
+		<p>The heart rate registered from Apple Watch is usually recorded in a few minutes,
+			but it will be recorded in detail every few seconds while measuring with a workout compatible application.<br />
+			In order to obtain accurate information, we recommend that you measure with a workout compatible application on Apple Watch.
+		</p>
+
+		<h3>About distance</h3>
+		<p>
+			If there are distance datas connected with your workout, it loads it.<br />
+			If there is no connected data, split time is not displayed.<br />
+			You can check if it is connected with workout in Apple Health application.
+		</p>
+		<p>
+			There is a difference in the content of the distance data by the application.<br />
+			<table>
+				<tr><td></td><td>Measuring device</td><td>Connection</td><td>Connection at pause</td></tr>
+				<tr><td>Zones</td><td>Apple Watch</td><td>yes</td><td>no</td></tr>
+				<tr><td>Apple's Workout app</td><td>Apple Watch</td><td>yes</td><td>no</td></tr>
+				<tr><td>RunKeeper</td><td>Apple Watch</td><td>yes</td><td>no</td></tr>
+				<tr><td>RunKeeper</td><td>iPhone</td><td>no</td><td>no</td></tr>
+				<tr><td>Runtastic</td><td>Apple Watch</td><td>no</td><td>no</td></tr>
+				<tr><td>Runtastic</td><td>iPhone</td><td>no</td><td>no</td></tr>
+				<tr><td>Nike+ Run Club</td><td>Apple Watch</td><td>yes</td><td>yes</td></tr>
+				<tr><td>Strava</td><td>Apple Watch</td><td>yes(summarized)</td><td>-</td></tr>
+				<tr><td>Strava</td><td>iPhone</td><td>yes(summarized)</td><td>-</td></tr>
+			</table>
+			Zones conform to the Apple's workout app.
+		</p>
+
+		<h3>About split time</h3>
+		<p>
+			If distance datas are connected with your workout, split time is displayed.<br />
+			But it is not displayed when the distance is smaller than 1 km(mile).
+		</p>
+		<p>
+			Calculation of pace uses time excluding pause time.<br />
+			It uses distance including pause time.
+		</p>
+
+		<p>
+			<b>Nike + Run Club</b><br />
+			Split time is incorrect if pose is included, due to different usage of distance data.<br />
+			(The display on Zones may be a faster pace than it actually is.)
+		</p>
+		<p>
+			<b>RunKeeper</b><br />
+			It seems that the pace of split is calculated by the time including pause time.<br />
+			Therefore, there is a possibility that it is different from the value with Zones.
+		</p>
+		<p>
+			<b>Runtastic</b><br />
+			Split time is not displayed because distance data is not connected to Workout.
+		<p>
+			※This is information at the time of October, 2016.
+		</p>
+
+	</div><!-- content -->
+</div><!-- container container-help -->
+
+<div class="footer cf">
+	<div class="content">
+		<p class="copyright">© Flask LLP |  English / <a href="../ja/zones/help-06.html">Japanese</a></p>
+	</div><!-- content -->
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44428360-1', 'flaskapp.com');
+  ga('send', 'pageview');
+</script>
+
+</body></html>
