@@ -162,11 +162,6 @@ a:hover {
 }
 .content-wrap2 {
 	background-color: #005568;
-	padding-top: 50px;
-}
-.content-wrap3 {
-	background-color: #133C4A;
-	padding-top: 30px;
 }
 .content-copy {
 	order: 1;
@@ -253,17 +248,23 @@ a:hover {
 	padding: 0 0 30px 0;
 	color: #333;
 }
+.container-help .content {
+	padding: 0 30px;
+}
 .container-help p {
 	font-family: sans-serif;
 }
-@media screen and (max-width:640px){
+@media screen and (max-width:770px){
 	.container-help {
-		padding: 0 15px 30px 15px;
+		padding: 0 0 30px 0;
 	}
+	.container-help .content {
+	padding: 0 5%;
+}
 }
 .container-help .content {
 	max-width: 1000px;
-	width: 100%;
+	width: 90%;
 }
 .container-help .navbar-top {
 	text-align: left;
@@ -295,7 +296,7 @@ a:hover {
 	border-bottom: 1px #ccc dashed;
 }
 
-@media screen and (max-width:640px){
+@media screen and (max-width:770px){
 	.container-help img {
 		max-width: 100%;
 		height: auto;
@@ -313,7 +314,7 @@ a:hover {
 	width: 650px;
 	float: right;
 }
-@media screen and (max-width:640px){
+@media screen and (max-width:770px){
 	.container-help .wrap-sidetext div:first-child,
 	.container-help .wrap-sidetext div:last-child {
 		width: 100%;
@@ -323,7 +324,7 @@ a:hover {
 .container-help .wrap-video {
 	width: 640px;
 }
-@media screen and (max-width:640px){
+@media screen and (max-width:770px){
 	.container-help .wrap-video {
 		width: 100%;
 	}
@@ -374,7 +375,7 @@ a:hover {
 
 /* For Mobile ---------------------------------------- */
 
-@media screen and (max-width:640px){
+@media screen and (max-width:770px){
 
 	.content {
 		width: 100%;
@@ -448,12 +449,8 @@ a:hover {
 	}
 	.content-wrap2 {
 		background-color: #689EA4;
-		padding-top: 50px;
 	}
-	.content-wrap3 {
-		background-color: #133C4A;
-		padding-top: 30px;
-	}
+	
 	.content-copy {
 		text-align: center;
 		padding: 0 10px 20px 10px;
