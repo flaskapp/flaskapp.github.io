@@ -122,6 +122,15 @@ a.btn-app:hover {
 footer {
 	padding: 30px 0 50px 0;
 }
+.app-cube {
+	background-color: #1B1A1A;
+}
+.app-cube .app-box {
+	background-image: url(../img/img_cube.png);
+}
+.app-cube h2 {
+	font-size: 38px;
+}
 .app-zones {
 	background-color: #1B1A1A;
 }
