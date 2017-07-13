@@ -123,13 +123,13 @@ footer {
 	padding: 30px 0 50px 0;
 }
 .app-cube {
-	background-color: #1B1A1A;
+	background-color: #25B2D0;
 }
 .app-cube .app-box {
 	background-image: url(../img/img_cube.png);
 }
 .app-cube h2 {
-	font-size: 38px;
+	font-size: 40px;
 }
 .app-zones {
 	background-color: #1B1A1A;
