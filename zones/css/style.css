@@ -50,11 +50,21 @@ a:hover {
 
 .hero {
 	color: #fff;
-	background-color: #02212A;
-	background-image: url('../img/bg.jpg');
+	background-color: #000000;
+	background-image: url('../img/bg3.jpg');
   background-position: 50% 50%;
   background-repeat: no-repeat;
+	background-attachment: fixed;
   background-size: cover;
+}
+-@media screen and (max-width:640px){
+	.hero {
+		background-image: url('../img/bg3_m.jpg');
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
 }
 .hero a,
 .hero a:visited {
@@ -104,13 +114,13 @@ a:hover {
 	text-decoration: none;
 }
 .hero-text {
-	width: 620px;
-	float: right;
-	padding-top: 160px;
+	width: 480px;
+	float: left;
+	padding-top: 250px;
 }
 .hero-img {
-	width: 300px;
-	float: left;
+	width: 450px;
+	float: right;
 	padding-left: 10px;
 	padding-top: 50px;
 	padding-bottom: 60px;
@@ -122,24 +132,24 @@ a:hover {
 }
 .hero-copy{
 	margin: 10px 5px 5px 5px;
-	font-size: 20px;
-	font-weight: 500;
+	font-size: 16px;
+	font-weight: normal;
 }
 .hero-store {
 	margin-top: 20px;
 }
 .hero-store img {
 	margin: 5px;
-	width: 148px;
-	height: 50px;
+	width: 178px;
+	height: 60px;
 }
 
 .hero-store a img:hover {
-	-webkit-transform:scale(1.2,1.2);
-	-moz-transform:scale(1.2,1.2);
-	-ms-transform:scale(1.2,1.2);
-	-o-transform:scale(1.2,1.2);
-	transform:scale(1.2,1.2);
+	-webkit-transform:scale(1.1,1.1);
+	-moz-transform:scale(1.1,1.1);
+	-ms-transform:scale(1.1,1.1);
+	-o-transform:scale(1.1,1.1);
+	transform:scale(1.1,1.1);
 }
 .hero-img {
 	text-align: center;
