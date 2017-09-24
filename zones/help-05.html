@@ -46,27 +46,28 @@
 
 		<h3>2. Check Permission of Location</h3>
 
-		<p>How to Check</p>
+		<p>
 			<ol>
 				<li>Open "Settings" app in iPhone</li>
 				<li>Tap "Zones"</li>
 				<li>Location is "While Using"</li>
 			</ol>
 			<img src="./img/help05_01.png" width="187px" />
+		</p>
 		<p>If it is "Never", please change it to allow.<br />
 			<img src="./img/help05_02.png" width="187px" />
 		</p>
 
 		<h3>3. Check Permission of Workout Routes (iOS 11)</h3>
 		<p>
-			If you have iOS 11 or later and Zones ver1.4.0 or later, Zones app save route datas to Apple Health.<br />
+			If you have iOS 11 + watchOS  or later and Zones ver1.4.0 or later, Zones app save route datas to Apple Health.<br />
 			Please check if there is permission to read / write "Workout Routes" in Apple Health.<br />
 			<a href="help-14.html">Check the Permissions of Apple Health</a>
 		</p>
 
 	  <h3>4. Confirm Existance of Route Records (iOS 11)</h3>
 			<p>
-				If you have iOS 11 or later and Zones ver1.4.0 or later, you can check if there is route information in Apple Health.<br />
+				If you have iOS 11 + watchOS 4 or later and Zones ver1.4.0 or later, you can check if there is route information in Apple Health.<br />
 				<ol>
 					<li>Open Apple "Health" app</li>
 					<li>Tap "Health Data" of tab</li>
@@ -77,11 +78,23 @@
 					<li>Is there a route map?</li>
 				</ol>
 			</p>
-
-			<h3>5. What App did you Recorded? (iOS 10)</h3>
 			<p>
-				If iOS 10 or less or Zones ver1.3 or less,
+				If the workout route is registered in Apple Health, the route map will be displayed even for workouts registered with other app.<br />
+				Whether the map is displayed in the Apple "Activity" application?<br />
+				Seems to depend on the acquired GPS datas and it is not necessarily displayed even if there is workout route information.
+			</p>
+
+			<h3>5. iOS 10 + watchOS 3</h3>
+			<p>
+				If iOS 10 + watchOS 3 or Zones ver1.3 or less,
 				Route map is displayed only for workouts registered with Zones app.
+			</p>
+			<p>
+				Route map information is sent from Apple Watch to iPhone, but communication between devices may not work properly.<br />
+				In order to test for connecting, tap "Sync Now" on <a href="help-11.html">Setting of Apple Watch App</a>.
+			</p>
+			<p>
+				If it can not communicate, restart the Apple Watch app or restart the Apple Watch device.
 			</p>
 
 			<h3>6. Update to iPhone is Delayed</h3>
