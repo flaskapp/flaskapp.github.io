@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+
+	<meta charset="utf-8"><title>Help | Zones</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="/zones/img/favicon.ico">
+	<link rel="apple-touch-icon" href="/zones/img/apple-touch-icon.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/normalize.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="en">
+
+<div class="container container-help">
+
+	<div class="navbar-top">
+		<div class="content">
+		<a href="help.html"><i class="fa fa-chevron-left"></i> Zones Help Index</a>
+		</div>
+	</div>
+
+	<div class="content">
+		<h1><i class="fa fa-smile-o"></i> Help</h1>
+
+		<h1>Active Calory not Recorded</h1>
+		<p>
+			The active calorie is calculated by Apple Watch and registered in Apple Health.
+		</p>
+
+		<h2>Cause</h2>
+		<h3>Cause 1. The app did not have permission to access Apple Health</h3>
+		<p>
+			For the Zones app to collect your active calories, you need permission of Apple Health.<br />
+			<a href="help-14.html">Check the Permissions of Apple Health</a>.<br />
+		</p>
+
+		<h3>Cause 2. Duration is too short</h3>
+		<p>
+			After starting workout, it may take about 1 minute to calculate the first active calorie.
+		</p>
+
+		<h3>Cause 3. Added to Health was delayed</h3>
+		<p>
+			Normally, registration to health care will be done in about 6 seconds.
+			But sometimes registration may be delayed and collection may not be possible during workout measurement.<br />
+			In that case, it will show "--" (no value) or it will be less value.
+		</p>
+
+		<h2>How to fix</h2>
+		<h3>Update to the correct value</h3>
+		<p>
+			You can re-collect calories on the workout editing screen.<br />
+			Please refer to <a href="help-16.html">Wrong Total Active Calories or Distance</a>.
+		</p>
+
+		<h3>Confirm sample data</h3>
+		<p>
+			You can check details of actually registered sample data on Apple's "Health" app.
+		</p>
+		<ol>
+			<li>Open "Health" app on iPhone</li>
+			<li>Tap "Health Data" of tab</li>
+			<li>Tap "Activity"</li>
+			<li>Tap "Active Energy"</li>
+			<li>Tap "Show All Data"</li>
+			<li>Show record during workout</li>
+		</ol>
+		<p>
+			<img src="img/help17_01.png" />
+		</p>
+		<p>
+			In the above case, the data is from 20: 45: 42 to 20: 45: 48, but the addition to health care is 20: 49: 18 after 3 minutes.<br />
+			If it was a workout within 3 minutes, this information could not be collected.
+		</p>
+		<p>
+			Because Apple Watch (watchOS) is doing this registration, there is a possibility to improve by watchOS version upgrade.<br />
+			(It does not depend on the Zones app)
+		</p>
+
+	</div><!-- content -->
+</div><!-- container container-help -->
+
+<div class="footer cf">
+	<div class="content">
+		<p class="copyright">© Flask LLP |  English / <a href="../ja/zones/help-17.html">Japanese</a></p>
+	</div><!-- content -->
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44428360-1', 'flaskapp.com');
+  ga('send', 'pageview');
+</script>
+
+</body></html>
