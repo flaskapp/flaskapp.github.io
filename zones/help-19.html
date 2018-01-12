@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+
+	<meta charset="utf-8"><title>Help | Zones</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="/zones/img/favicon.ico">
+	<link rel="apple-touch-icon" href="/zones/img/apple-touch-icon.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/normalize.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="en">
+
+<div class="container container-help">
+
+	<div class="navbar-top">
+		<div class="content">
+		<a href="help.html"><i class="fa fa-chevron-left"></i> Zones Help Index</a>
+		</div>
+	</div>
+
+	<div class="content">
+		<h1><i class="fa fa-smile-o"></i> Help</h1>
+
+		<h1>Workout Detail</h1>
+
+		<p>
+			<img src="img/help19_01.png" />
+		</p>
+
+		<dl>
+			<dt>1. Edit</dt>
+			<dd>It is displayed only in the workout recorded by Zones.</dd>
+			<dt>2. Delete</dt>
+			<dd>
+				It is displayed only in the workout recorded by Zones.<br />
+				Once deleted, data can not be restored. Please be careful.
+			</dd>
+			<dd>
+				Workouts registered with other app can not be deleted. This is a limitation of iOS (HealthKit).<br />
+				Please delete it with registered app or Apple's Health app.
+			</dd>
+			<dt>3. Share</dt>
+			<dt>4. Workout Date</dt>
+			<dd>Date on which workout started.</dd>
+			<dt>5. Workout Time</dt>
+			<dd>Workout start time - workout end time</dd>
+			<dt>6. Registered app (Source)</dt>
+			<dt>7. Workout Name</dt>
+			<dd>If you have set a name in a custom workout, that name will be displayed.<br />
+				Otherwise, the activity name is displayed.</dd>
+			<dt>8. Route Map</dt>
+			<dd>If route information was recorded, a tab will be displayed.<br />
+			<a href="help-05.html">If route map does not Appear</a></dd>
+		</dl>
+
+
+		<p>
+			<img src="img/help19_02.png" />
+		</p>
+		<dl>
+			<dt>9. Duration</dt>
+			<dd>Workout duration excluding pause time.</dd>
+			<dt>10. Total Active Calories</dt>
+			<dd>It is the total of calories consumed during workout.<br />
+				If the values ​​are very different, try <a href="help-16.html">Re-collect sample data</a>.
+			</dd>
+			<dt>11. Total Distance</dt>
+			<dd>It is the total distance traveled during workout.<br />
+				If the values ​​are very different, try <a href="help-16.html">Re-collect sample data</a>.
+			</dd>
+			<dt>12. Speed</dt>
+			<dd>It is the speed calculated from "9. Duration" and "11. Total Distance".<br />
+				However, the calculation is different in the following cases.<br />
+				If lap is registered by swimming, use the total time of lap instead of "9. Duration".<br />
+				If segment is registered by downhill ski / snowboard, the average of the segment speed is displayed.
+			</dd>
+			<dt>13. 14. Average, Max-Min Exercise Intensity</dt>
+			<dd>Exercise intensity calculated from the heart rate and Heart Rate Zone.<br />
+				If there is no record of heart rate, -- will be displayed.
+			</dd>
+			<dt>15. 16. Average, Max-Min Heart Rate</dt>
+			<dd>
+				If there is no record of heart rate, -- will be displayed.
+			</dd>
+			<dt>17. Recovery Heart Rate</dt>
+			<dd>It is displayed if Recovery Heart Rate is recorded.<br />
+				Please refer to <a href="help-03.html">Recovery Heart Rate</a>.
+		</dl>
+
+		<dl>
+			<dt>18. Section</dt>
+			<dd>
+				It is displayed when the section information is in the workout.<br />
+				You can see detailed information such as distance and speed for each section.<br />
+				<img src="img/help19_04.png" width="170px"/><br />
+				In order to display the distance and speed in section, distance data must be attached to the workout.<br />
+				(Distance data is attached to the workout measured by Zones app.)
+			</dd>
+			<dd>
+				There are the following types of section.</dd>
+			<dd>
+				<dl>
+					<dt>a. Split</dt>
+					<dd>It is section information per km(mile) units.<br />
+						It displays if the total distance is 1 km (mile) or more.<br />
+						If distance is not connected to workout, split details can not be displayed.<br />
+						If laps are registered by swimming, it is not displayed.
+					</dd>
+					<dt>b. Lap</dt>
+					<dd>
+						It is similar to split, but lap is the information recorded on the workout at the time of measurement.<br />
+						It is registered when pool swimming, you can see swimming style.<br />
+					Apple Document: <a href="https://developer.apple.com/documentation/healthkit/hkworkouteventtype/hkworkouteventtypelap">HKWorkoutEventTypeLap</a>
+					</dd>
+					<dt>c. Marker</dt>
+					<dd>
+						The marker is information on a certain timing.<br />
+						Zones does not support marker recording, but information registered with double tap in Apple's "Workout" app is displayed as a marker.<br />
+						Apple Document: <a href="https://developer.apple.com/documentation/healthkit/hkworkouteventtype/hkworkouteventtypemarker">HKWorkoutEventTypeMarker</a>
+					</dd>
+					<dt>d. Segment</dt>
+					<dd>
+						Segments are registered for swimming, <a href="help-18.html">Downhill skiing, Snowboarding</a> etc.<br />
+						Apple Document: <a href="https://developer.apple.com/documentation/healthkit/hkworkouteventtype/hkworkouteventtypesegment">HKWorkoutEventTypeSegment</a>
+					</dd>
+					<dt>e. Active/Pause</dt>
+					<dd>It is displayed when there is a pause event.<br />
+						"Active" represents out of pause period.<br />
+						Apple Document: <a href="https://developer.apple.com/documentation/healthkit/hkworkouteventtype/hkworkouteventtypepause">HKWorkoutEventTypePause</a><br />
+						Apple Document: <a href="https://developer.apple.com/documentation/healthkit/hkworkouteventtype/hkworkouteventtyperesume">HKWorkoutEventTypeResume</a>
+					</dd>
+				</dl>
+			</dd>
+			<dd>
+				Information other than split will be registered in workout.<br />
+				You can see original data at the Workout Detail > Workout Events on Apple Health app.
+		</dl>
+
+		<p>
+			<img src="img/help19_03.png" />
+		</p>
+		<dl>
+			<dt>19. Heart Rate</dt>
+			<dd>
+				Displays the minimum - maximum heart rate during workout.<br />
+				Tap the graph to display the heart rate at that point.<br />
+			</dd>
+			<dd>
+				Heart rate will be obtained from iPhone's Health.<br />
+				The color of the graph line changes according to the setting of the heart rate zone.
+			</dd>
+			<dt>20. Speed</dt>
+			<dd>
+				Displays the average speed of the workout.<br />
+				Tap the graph to display the speed at that point.
+			</dd>
+			<dd>
+				Graph of speed is created from distance sample data.<br />
+				If distance data is attached to the workout, that data will be displayed.
+				If it is not attached, it will read data from Apple Health.<br />
+			</dd>
+			<dt>21. Active Line</dt>
+			<dd>
+				The part where the line under the graph is not drawn is the section paused (stopped).
+			</dd>
+		</dl>
+		<p>
+			<img src="img/help19_05.png" />
+		</p>
+		<dl>
+				<dt>22. Route Map Line Color</dt>
+				<dd>
+					You can change the line color of the route map to the following by tapping on this area.<br />
+					<ul>
+						<li>Heart Rate Zone</li>
+						<li>Speed</li>
+						<li>Altitude (GPS Altitude)</li>
+					</ul>
+				</dd>
+				<dt>23. Route Map Share</dt>
+		</dl>
+
+	</div><!-- content -->
+</div><!-- container container-help -->
+
+<div class="footer cf">
+	<div class="content">
+		<p class="copyright">© Flask LLP |  English / <a href="../ja/zones/help-19.html">Japanese</a></p>
+	</div><!-- content -->
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44428360-1', 'flaskapp.com');
+  ga('send', 'pageview');
+</script>
+
+</body></html>

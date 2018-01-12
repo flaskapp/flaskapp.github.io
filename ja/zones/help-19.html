@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+
+	<meta charset="utf-8"><title>ヘルプ | Zones</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="/zones/img/favicon.ico">
+	<link rel="apple-touch-icon" href="/zones/img/apple-touch-icon.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../../css/normalize.min.css">
+	<link rel="stylesheet" href="../../zones/css/style.css">
+</head>
+
+<body class="en">
+
+<div class="container container-help">
+
+	<div class="navbar-top">
+		<div class="content">
+		<a href="help.html"><i class="fa fa-chevron-left"></i> Zones ヘルプ目次</a>
+		</div>
+	</div>
+
+	<div class="content">
+		<h1><i class="fa fa-smile-o"></i> ヘルプ</h1>
+
+		<h1>ワークアウト詳細</h1>
+
+		<p>
+			<img src="img/help19_01.png" />
+		</p>
+
+		<dl>
+			<dt>1. 編集</dt>
+			<dd>Zonesで登録されたワークアウトのみ表示されます。</dd>
+			<dt>2. 削除</dt>
+			<dd>
+				Zonesで登録されたワークアウトのみ表示されます。<br />
+				削除すると、データの復元はできません。ご注意ください。
+			</dd>
+			<dd>
+				他アプリで登録されたワークアウトは削除ができません。これはiOS(HealthKit)の制限になります。<br />
+				登録したアプリ もしくは Appleのヘルスケアで削除してください。
+			</dd>
+			<dt>3. シェア</dt>
+			<dt>4. ワークアウト日付</dt>
+			<dd>ワークアウトを開始した時の日付が表示されます。</dd>
+			<dt>5. ワークアウト時間</dt>
+			<dd>ワークアウト開始時刻 〜 ワークアウト終了時刻</dd>
+			<dt>6. 登録アプリ（ソース）</dt>
+			<dt>7. ワークアウト名</dt>
+			<dd>カスタムワークアウトで名前を設定している場合、その名前が表示されます。<br />
+				それ以外は、アクティビティ名が表示されます。</dd>
+			<dt>8. ルートマップ</dt>
+			<dd>ルート位置情報が記録されていた場合、タブが表示されます。<br />
+			<a href="help-05.html">ルートマップが表示されない場合</a></dd>
+		</dl>
+
+
+		<p>
+			<img src="img/help19_02.png" />
+		</p>
+		<dl>
+			<dt>9. 運動時間</dt>
+			<dd>ポーズ時間を除いたワークアウト時間です。</dd>
+			<dt>10. 合計アクティブカロリー</dt>
+			<dd>ワークアウト中に消費したカロリーの合計です。<br />
+				もし、値が大きく違う場合は<a href="help-16.html">データの再収集</a>をお試しください。
+			</dd>
+			<dt>11. 合計距離</dt>
+			<dd>ワークアウト中に移動した距離の合計です。<br />
+				もし、値が大きく違う場合は<a href="help-16.html">データの再収集</a>をお試しください。
+			</dd>
+			<dt>12. 速度</dt>
+			<dd>9.運動時間と、11.合計距離から算出した速度です。<br />
+				ただし、以下の場合は計算方法が変わります。<br />
+				水泳でラップが登録されている場合は、9.運動時間の代わりにラップの合計時間を利用します。<br />
+				ダウンヒルスキー・スノーボードでセグメントが登録されている場合は、セグメント速度の平均を表示します。
+			</dd>
+			<dt>13. 14. 平均、最大-最小 運動強度</dt>
+			<dd>心拍数と、心拍ゾーンより算出した運動強度です。<br />
+				心拍数の記録がない場合には、-- になります。
+			</dd>
+			<dt>15. 16. 平均、最大-最小 心拍数</dt>
+			<dd>
+				心拍数の記録がない場合には、-- になります。
+			</dd>
+			<dt>17. 回復心拍数</dt>
+			<dd>回復心拍数が記録されている場合に表示されます。<br />
+				詳しくは<a href="help-03.html">回復心拍数について</a>を参照してください。
+		</dl>
+
+		<dl>
+			<dt>18. 区間情報</dt>
+			<dd>
+				ワークアウトに区間情報が含まれていた場合に表示されます。<br />
+				区間ごとに、距離や速度などの詳細情報をみることができます。<br />
+				<img src="img/help19_04.png" width="170px"/><br />
+				距離や速度を表示するためには、ワークアウトに距離データが紐付いている必要があります。<br />
+				(Zonesによって測定されたトレーニングには距離データが添付されています。)
+				<br />
+			区間には以下の種類があります。</dd>
+			<dd>
+				<dl>
+					<dt>a. スプリット</dt>
+					<dd>km(mi)単位ごとの区間情報です。<br />
+				  11.合計距離 が1km(mile)以上のときに、表示します。<br />
+					ワークアウトに距離が紐付けられていない場合は、スプリットの詳細は表示できません。<br />
+					水泳でラップが登録されている場合は、表示されません。
+					</dd>
+					<dt>b. ラップ</dt>
+					<dd>スプリットと似ていますが、ラップは測定時にワークアウトに記録された情報です。<br />
+					プール水泳をしたとき時に登録され、泳ぎ方（スタイル）の情報を見ることができます。<br />
+					Apple Document: <a href="https://developer.apple.com/documentation/healthkit/hkworkouteventtype/hkworkouteventtypelap">HKWorkoutEventTypeLap</a>
+					</dd>
+					<dt>c. マーカー</dt>
+					<dd>
+						マーカーは任意のタイミングの情報になります。<br />
+						Zonesではマーカーの記録は対応していませんが、
+						Apple標準の「ワークアウト」アプリにてダブルタップで登録した情報は、マーカーとして表示されます。<br />
+						Apple Document: <a href="https://developer.apple.com/documentation/healthkit/hkworkouteventtype/hkworkouteventtypemarker">HKWorkoutEventTypeMarker</a>
+					</dd>
+					<dt>d. セグメント</dt>
+					<dd>
+						セグメントは、水泳や<a href="help-18.html">ダウンヒルスキー、スノーボード</a>の時などに登録されます。<br />
+						Apple Document: <a href="https://developer.apple.com/documentation/healthkit/hkworkouteventtype/hkworkouteventtypesegment">HKWorkoutEventTypeSegment</a>
+					</dd>
+					<dt>e. アクティブ・ポーズ</dt>
+					<dd>ポーズ(停止)をした場合に表示されます。<br />
+						ポーズ中は「ポーズ」、ポーズ以外は「アクティブ」としてその区間を表示します。<br />
+						Apple Document: <a href="https://developer.apple.com/documentation/healthkit/hkworkouteventtype/hkworkouteventtypepause">HKWorkoutEventTypePause</a><br />
+						Apple Document: <a href="https://developer.apple.com/documentation/healthkit/hkworkouteventtype/hkworkouteventtyperesume">HKWorkoutEventTypeResume</a>
+					</dd>
+				</dl>
+			</dd>
+			<dd>
+				スプリット以外の情報は、ワークアウトに登録されている情報になります。<br />
+				元データは、ヘルスケアアプリの、ワークアウトの詳細 > ワークアウトイベント にて確認できます。
+		</dl>
+
+		<p>
+			<img src="img/help19_03.png" />
+		</p>
+		<dl>
+			<dt>19. 心拍数</dt>
+			<dd>
+				ワークアウト中の、最小 - 最大心拍数を表示します。<br />
+				グラフをタップすると、その地点での心拍数を表示します。<br />
+			</dd>
+			<dd>
+				心拍数はiPhoneのヘルスケアから取得して表示します。<br />
+				グラフ線は、心拍ゾーンの設定により色が変わります。
+			</dd>
+			<dt>20. 速度</dt>
+			<dd>
+				ワークアウトの平均の速度を表示します。<br />
+				グラフをタップすると、その地点での速度を表示します。
+			</dd>
+			<dd>
+				速度のグラフは、距離データより作成しています。<br />
+				ワークアウトに距離が紐付いている場合はその情報を、
+				紐付いていない場合はヘルスケアより取得して表示します。<br />
+
+			</dd>
+			<dt>21. アクティブ線</dt>
+			<dd>
+				グラフ下の線が引かれていない箇所は、ポーズ(停止)している区間になります。
+			</dd>
+		</dl>
+			<p>
+				<img src="img/help19_05.png" />
+			</p>
+			<dl>
+				<dt>22. ルートマップの線の色</dt>
+				<dd>
+					この箇所をタップすると、ルートマップの線の色を以下に変えることができます。<br />
+					<ul>
+						<li>心拍ゾーン</li>
+						<li>速度</li>
+						<li>高度（GPSの高度) </li>
+					</ul>
+				</dd>
+				<dt>23. ルートマップのシェア</dt>
+			</dl>
+	</div><!-- content -->
+</div><!-- container container-help -->
+
+<div class="footer cf">
+	<div class="content">
+		<p class="copyright">© Flask LLP |  <a href="../../zones/help-19.html">English</a> / Japanese</p>
+	</div><!-- content -->
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44428360-1', 'flaskapp.com');
+  ga('send', 'pageview');
+</script>
+
+</body></html>

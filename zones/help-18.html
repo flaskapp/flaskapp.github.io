@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+
+	<meta charset="utf-8"><title>Help | Zones</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="/zones/img/favicon.ico">
+	<link rel="apple-touch-icon" href="/zones/img/apple-touch-icon.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/normalize.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="en">
+
+<div class="container container-help">
+
+	<div class="navbar-top">
+		<div class="content">
+		<a href="help.html"><i class="fa fa-chevron-left"></i> Zones Help Index</a>
+		</div>
+	</div>
+
+	<div class="content">
+		<h1><i class="fa fa-smile-o"></i> Help</h1>
+
+		<h1>Measurement of Ski / Snowboarding</h1>
+		<p>
+			Measure workout with "Downhill Skiing" and "Snowboarding" activities, you can record distances, slope slope etc using Apple Watch's barometer.
+		</p>
+		<p>
+			This function is newly added in watch OS 4.2.<br />
+			Apple Watch (watch OS) is doing measurement and calculation of distance, Zones saves the result.<br />
+			For information on the measurement contents, please refer to Apple's reference.<br />
+			Apple Reference: <a href="https://developer.apple.com/documentation/healthkit/hkworkoutactivitytype/hkworkoutactivitytypesnowboarding/receiving_downhill_skiing_and_snowboarding_data">Receiving Downhill Skiing and Snowboarding Data</a>
+		</p>
+		<p>
+
+			This help contains information based on our experiences and there is the possibility of inaccurate information.<br />
+			If you notice any problems, it will be helpful if you can contact us via feedback from the app settings!
+		</p>
+
+		<h2>Distance Measurement Condition</h2>
+		<p>Distances and segments are recorded only when all of the following conditions are satisfied.</p>
+		<ol>
+			<li>Zones ver 2.0 or over</li>
+			<li>iOS11.2, watch OS 4.2 or over</li>
+			<li>Apple Watch Series 3 or over</li>
+		</ol>
+		<p>
+			Although it is possible to record workouts other than the above, distance and segments are not recorded.
+		</p>
+
+
+		<h2>Attention on Measurement</h2>
+		<p>
+			<ul>
+				<li>Turn On "Auto Pause"</li>
+				<li>The active / pause state may not react in real time, but you can record it.</li>
+				<li>When it detects downhill, it becomes active state.</li>
+				<li>If you do an action such as climbing a mountain again, you will be in a state of pause. At this timing, the last downhill data will be recorded.</li>
+				<li>Distance and Speed is not displayed in real time. (The previous values ​​are displayed.)</li>
+			</ul>
+		</p>
+
+		<h2>Recorded Data</h2>
+
+		<p>
+			Distance and Segments are recorded.<br />
+			These are the data created by the watch OS.<br />
+			Therefore, behaviors may differ due to differences in watch OS version.<br />
+		</p>
+
+		<h3>Distance</h3>
+		<p>
+			Your distance data records to "Downhill Snow Sports Distance" by watch OS.<br />
+			Zones collects this distance data and sets it to <a href="help-19.html"> total distance</a>.
+			You can check the distance data in Apple's "Health" app.
+		</p>
+		<p>
+			It is not a distance calculation using difference of GPS position like running and walking, so distance is not measured even if you move on a flat ground.<br />
+		</p>
+
+		<h3>Segment</h3>
+		<p>
+			When a downhill is detected, the detailed information is recorded as a segment.<br />
+			The segment contains the following information.<br />
+		</p>
+		<ol>
+			<li>Average Speed</li>
+			<li>Maximum Speed</li>
+			<li>Slope Gradient</li>
+			<li>Descent Altitude</li>
+		</ol>
+		<p>
+			You can see the segment on <a href="help-19.html"> Workout Details</a> screen of the Zones iPhone app.
+		</p>
+
+		<h3>When recording fails</h3>
+		<ol>
+			<li>Please check whether the measurement conditions are satisfied.</li>
+			<li>Please exercise with altitude changing.<br />Distance is not measured even if you move on a flat ground.</li>
+			<li>If it is not a movement that goes downhill, even if the altitude changes, it may not be possible to record.<br />
+					(Vertical movement like elevator ascending and descending)</li>
+		</ol>
+
+	</div><!-- content -->
+</div><!-- container container-help -->
+
+<div class="footer cf">
+	<div class="content">
+		<p class="copyright">© Flask LLP |  English / <a href="../ja/zones/help-18.html">Japanese</a></p>
+	</div><!-- content -->
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44428360-1', 'flaskapp.com');
+  ga('send', 'pageview');
+</script>
+
+</body></html>

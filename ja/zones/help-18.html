@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+
+	<meta charset="utf-8"><title>ヘルプ | Zones</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="/zones/img/favicon.ico">
+	<link rel="apple-touch-icon" href="/zones/img/apple-touch-icon.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../../css/normalize.min.css">
+	<link rel="stylesheet" href="../../zones/css/style.css">
+</head>
+
+<body class="en">
+
+<div class="container container-help">
+
+	<div class="navbar-top">
+		<div class="content">
+		<a href="help.html"><i class="fa fa-chevron-left"></i> Zones ヘルプ目次</a>
+		</div>
+	</div>
+
+	<div class="content">
+		<h1><i class="fa fa-smile-o"></i> ヘルプ</h1>
+
+		<h1>ダウンヒルスキー/スノーボードの測定</h1>
+		<p>
+			「ダウンヒルスキー」と「スノーボード」のアクティビティは、
+			Apple Watchの気圧計を利用して距離や坂の傾斜などを記録することができます。
+		</p>
+		<p>
+			この機能は、watch OS 4.2 にて新たに追加された機能です。<br />
+			距離などの計測や計算はApple Watch(watchOS)が行っており、Zonesはその結果を保存しています。<br />
+			測定内容についての情報はAppleのリファレンスをご確認ください。<br />
+			Apple Reference: <a href="https://developer.apple.com/documentation/healthkit/hkworkoutactivitytype/hkworkoutactivitytypesnowboarding/receiving_downhill_skiing_and_snowboarding_data">Receiving Downhill Skiing and Snowboarding Data</a>
+		</p>
+		<p>
+			このヘルプでは、私達の経験を元にした情報が含まれており、不正確な情報がある可能性があります。
+			あらかじめご了承ください。<br />
+			もし、お気づきの点がありましたら、アプリの設定にあるフィードバックからご連絡頂けると助かります！
+		</p>
+
+		<h2>距離の測定条件</h2>
+		<p>以下の条件を全て満たしている場合のみ、距離とセグメントが記録されます。</p>
+		<ol>
+			<li>Zones ver 2.0 以上</li>
+			<li>iOS11.2, watchOS 4.2 以上</li>
+			<li>Apple Watch Series 3 以上</li>
+		</ol>
+		<p>
+			上記の条件に当てはまらない環境でもワークアウトを行うことは可能ですが、距離とセグメントは記録されません。
+		</p>
+
+
+		<h2>測定時の注意</h2>
+		<p>
+			<ul>
+				<li>「自動停止」をオンにします。</li>
+				<li>アクティブ・ポーズの状態はリアルタイムに反応しない場合がありますが、記録は行えています。</li>
+				<li>滑降を検出するとアクティブの状態になります。</li>
+				<li>再び山を登るなどの動作をすると、ポーズの状態になります。このタイミングで、前回の滑降の情報が記録されます。</li>
+				<li>距離・ペースはリアルタイムには表示されません。 (前回までの距離が表示されます)</li>
+			</ul>
+		</p>
+
+		<h2>記録される情報</h2>
+
+		<p>
+			距離とセグメントが記録されます。<br />
+			これらは、watch OS が作成する情報になります。<br />
+			そのため、watch OS のバージョンの差により動作が異なる場合があります。<br />
+		</p>
+
+		<h3>距離</h3>
+		<p>
+			「ダウンヒル・スノースポーツの距離」に移動した距離が記録されます。<br />
+			Zonesはこの距離データを収集し、<a href="help-19.html">ワークアウトの合計距離</a>に設定します。<br />
+			記録された距離サンプルデータの詳細は、Appleのヘルスケアアプリにて確認ができます。
+		</p>
+		<p>
+			ランニングやウォーキングのようなGPS位置の差を使った距離の算出ではないため、平地を移動しても距離は測定されません。<br />
+			ご注意ください。
+		</p>
+
+		<h3>セグメント</h3>
+		<p>
+			滑降が検出されると、その詳細情報がセグメントとして記録されます。<br />
+			セグメントには、以下の情報が記録されます。<br />
+		</p>
+		<ol>
+			<li>平均スピード</li>
+			<li>最大スピード</li>
+			<li>傾斜の勾配</li>
+			<li>下降高度</li>
+		</ol>
+		<p>
+			登録されたセグメントは、Zones iPhoneアプリの<a href="help-19.html">ワークアウト詳細</a>画面から見ることができます。</br>
+
+		</p>
+
+		<h3>記録できない場合</h3>
+		<ol>
+			<li>測定の条件を満たしているかを確認してください。</li>
+			<li>高度が変わる運動をしてください。<br />平地を移動しても距離は測定はされません。</li>
+			<li>坂を滑降するような動きでない場合、たとえ高度が変わっても記録できないときがあります。<br />
+					（エレベータの上下のような垂直での移動など）</li>
+		</ol>
+
+		<p>
+
+		</p>
+
+	</div><!-- content -->
+</div><!-- container container-help -->
+
+<div class="footer cf">
+	<div class="content">
+		<p class="copyright">© Flask LLP |  <a href="../../zones/help-18.html">English</a> / Japanese</p>
+	</div><!-- content -->
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44428360-1', 'flaskapp.com');
+  ga('send', 'pageview');
+</script>
+
+</body></html>
