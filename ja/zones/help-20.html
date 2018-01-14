@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+
+	<meta charset="utf-8"><title>ヘルプ | Zones</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="/zones/img/favicon.ico">
+	<link rel="apple-touch-icon" href="/zones/img/apple-touch-icon.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../../css/normalize.min.css">
+	<link rel="stylesheet" href="../../zones/css/style.css">
+</head>
+
+<body class="en">
+
+<div class="container container-help">
+
+	<div class="navbar-top">
+		<div class="content">
+		<a href="help.html"><i class="fa fa-chevron-left"></i> Zones ヘルプ目次</a>
+		</div>
+	</div>
+
+	<div class="content">
+		<h1><i class="fa fa-smile-o"></i> ヘルプ</h1>
+
+		<h1>ワークアウトの構成とカスタマイズ</h1>
+
+		<p>
+			Zonesアプリでワークアウトを測定する時、アクティビィティの種類により自動的にワークアウトの構成を決定します。<br />
+			これらは「カスタムワークアウト」で任意に変更することができます。(PROのみ)<br />
+			無料版をお使いの場合は、<a href="#4">デフォルト構成の確認方法</a>をごらんください。
+		</p>
+		<p>
+			目的のアクティビティの種類が無い場合、カスタムワークアウトで自由に名前をつけて作成することができます。
+		</p>
+
+		<h2 id="1">1. ワークアウトの構成</h2>
+		<img src="img/help20_02.png" width="400px" />
+		<p>
+
+		</p>
+
+		<dl>
+			<dt>ワークアウト名</dt>
+			<dd>
+				ここに登録された名前が、<a href="help-19.html#7">記録結果のワークアウト名</a>として表示されます。<br />
+				この名前は、他アプリでも表示される場合があります。（Appleのアクティビティ アプリなど）
+			</dd>
+			<dd>
+				デフォルトでは、アクティビティの種類の名前になります。<br />
+				カスタムワークアウトの場合、わかりやすい名前を自由につけてください。
+			</dd>
+
+			<dt>アクティビティの種類</dt>
+			<dd>
+				目的のアクティビティが見つからない場合は、なるべく近いものを選択してください。<br />
+				アクティビティの追加はできません。
+			</dd>
+			<dd>
+				この種類は、Apple ヘルスケア(HealthKit)のアクティビティと連動しています。<br />
+				OSのバージョンに依存するため、
+				iOSとwatchOSにバージョンのズレがあると測定できない場合があります。<br />
+				watchOSのバージョンアップも忘れず行ってください。
+			</dd>
+			<dd>
+
+
+			<dt>場所</dt>
+			<dd>運動を行った場所を設定します。<br />
+			</dd>
+
+			<dt>プールの長さ</dt>
+			<dd>
+				プール水泳以外では表示されません。<br />
+				この設定をもとに、<a href="help-19.html#18">ラップ</a>が自動的に記録されるようになります。
+			</dd>
+
+
+			<dt><img src="../../zones/img/help12_cal.png" /> アクティブカロリー</dt>
+			<dd><a href="help-19.html#10">アクティブカロリーの合計を</a>ワークアウトに登録します。</dd>
+
+			<dt><img src="../../zones/img/help12_distance.png" /> 距離</dt>
+			<dd>
+				ワークアウトに<a href="help-19.html#11">距離の合計</a>の登録と、<a href="help-19.html#18">距離データを紐付け</a>します。<br />
+				<a href="#5">距離の測定に対応していないアクティビティの種類</a>の場合は、この項目は表示されません。
+			</dd>
+			<dd>
+				距離のデータソースは、アクティビティの種類により変わります。<br />
+				ラベルには、対応する距離のデータソース名が表示されます。
+			</dd>
+
+			<dt><img src="../../zones/img/help12_route.png" /> 経路の位置情報</dt>
+			<dd>
+				GPSの位置情報を収集して、<a href="help-19.html#8">ルートマップ</a>の登録します。<br />
+				<a href="#5">距離の測定に対応していないアクティビティの種類</a>の場合は、この項目は表示されません。
+			</dd>
+			<dd>
+				OFFにすることにより、Apple Watchの電力消費を抑えることができます。<br />
+				ルートマップが必要ない場合には、OFFにしてください。
+			</dd>
+
+			<dt><img src="../../zones/img/help12_waterlock.png" /> 自動ウォーターロック</dt>
+			<dd>
+				ワークアウト開始時に、自動的にウォーターロックを行います。
+			</dd>
+		</dl>
+
+		<h2 id="2">2. カスタムワークアウトの作成</h2>
+		<ol>
+			<li>Zones iPhoneアプリを起動</li>
+			<li>「設定」タプをタップ</li>
+			<li>「カスタムワークアウト」をタップ</li>
+			<li>「新規作成」をタップ</li>
+		</ol>
+		<p>
+		変更も可能ですが、記録済みのワークアウトには反映されません。<br />
+		削除はカスタムワークアウト一覧画面で、対象行をスワイプします。
+		</p>
+
+		<h2 id="3">3. カスタムワークアウトを使った測定</h2>
+		<p>
+		登録したワークアウトは、 "カスタム" から選べるようになります。
+		</p>
+		<img src="img/help20_04.png" width="160px" />
+		<p>また、以下の手順で、現在選択されているワークアウトの構成を確認することができます。</p>
+		<p>
+			<ol>
+				<li>トップ画面を強く押す</li>
+				<li>ワークアウト情報をタップ</li>
+			</ol>
+		</p>
+		<p><img src="img/help20_03.png" width="413px" /></p>
+		<p>もし、最新情報に同期されていない場合は、<a href="help-11.html">設定から同期</a>を行ってください。</p>
+
+		</p>
+
+		<h2 id="4">4. デフォルト構成の確認方法</h2>
+		<p>無料版の場合でも、デフォルトの構成を確認することができます。</p>
+		<ol>
+			<li>Zones iPhoneアプリを起動</li>
+			<li>「設定」タプをタップ</li>
+			<li>「カスタムワークアウト」をタップ</li>
+			<li>「新規作成」をタップ</li>
+			<li>アクティビティをタップ</li>
+		</ol>
+
+		<p>
+			<img src="img/help20_01.png" width="200px" />
+		</p>
+		<p>
+			一覧に表示されているアイコンの有無が、デフォルトの構成内容になります。<br />
+			ただし、「経路の位置情報」は、場所の設定が「屋外」のときのみ有効です。
+		</p>
+
+		<h2 id="5">5. 距離が測定対象外のアクティビティについて</h2>
+		<p>
+			距離データは、watchOSがヘルスケア(HealthKit)に登録しています。<br />
+			距離データのサンプル間隔は、通常は数十分単位ですが、ワークアウト中は数秒単位になります。<br />
+			ですが、距離データの登録が以下の挙動になるアクティビティを確認しており、それらをZonesでは距離の測定の対象外としています。
+		</p>
+		<p>
+			<ol>
+				<li>距離データが登録されない</li>
+				<li>ヘルスケアへリアルタイムに登録されない</li>
+			</ol>
+			上記のどちらに当てはまるアクティビティなのかは、watchOSの仕様になるため、明確な切り分けができないことをご了承ください。<br />
+		</p>
+		<p>
+			以下は、私達がApple Watch Serires 3 + watchOS 4.2 で試した参考情報になります。<br />
+			<ul>
+				<li>Cross-Country Skiing（クロスカントリースキー）</li>
+				<li>Curling（カーリング）</li>
+				<li>Elliptical（エプリティカル）</li>
+				<li>Flexibility（柔軟体操）</li>
+				<li>Rowing（ローイング）</li>
+				<li>Stair Stepper（ステアステッパー）</li>
+				<li>Step Training（ステップトレーニング）</li>
+				<li>Skating Sports（スケート）</li>
+				<li>Snow Sports（ウィンタースポーツ）</li>
+				<li>Water Fitness（ウォーターフィットネス）</li>
+				<li>Water Polo（水球）</li>
+				<li>Water Sports（ウォータースポーツ）</li>
+			</ul>
+			上記が、1. 距離データが登録されないアクティビティです。<br />
+			上記以外は、測定後に<a href="help-16.html">データの再収集</a>をすることにより、正しい距離に更新できる可能性があります。<br />
+		</p>
+
+	</div><!-- content -->
+</div><!-- container container-help -->
+
+<div class="footer cf">
+	<div class="content">
+		<p class="copyright">© Flask LLP |  <a href="../../zones/help-20.html">English</a> / Japanese</p>
+	</div><!-- content -->
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44428360-1', 'flaskapp.com');
+  ga('send', 'pageview');
+</script>
+
+</body></html>
