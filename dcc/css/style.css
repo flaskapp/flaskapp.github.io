@@ -43,7 +43,6 @@ a:hover {
 .hero {
 	color: #fff;
 	background-color: #3F3F33;
-	background-image: url('../img/bg.jpg');
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
