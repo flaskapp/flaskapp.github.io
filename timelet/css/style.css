@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400);
 
 body {
 	margin: 0;
@@ -149,7 +149,7 @@ a:hover {
 }
 .container-help h2 {
 	margin-top: 52px;
-	padding-bottom: 10px; 
+	padding-bottom: 10px;
 	font-size: 24px;
 	color: #26374B;
 	border-bottom: 1px solid #26374B;
@@ -196,7 +196,7 @@ a:hover {
     padding-top: 69px;
     overflow: hidden;
 }
- 
+
 .container-help .wrap-video .video iframe {
     position: absolute;
     top: 0;
@@ -253,7 +253,7 @@ a:hover {
 	.hero-text h1 img {
 		text-align: center;
 		width: 90%;
-		height: auto; 
+		height: auto;
 	}
 	.hero-img {
 		margin: 30px 0 -3px 0;
@@ -288,8 +288,8 @@ a:hover {
  */
 .mfp-fade.mfp-bg {
 	opacity: 0.001; /* Chrome opacity transition bug */
-	-webkit-transition: all 0.15s ease-out; 
-	-moz-transition: all 0.15s ease-out; 
+	-webkit-transition: all 0.15s ease-out;
+	-moz-transition: all 0.15s ease-out;
 	transition: all 0.15s ease-out;
 }
 .mfp-fade.mfp-bg.mfp-ready {
@@ -301,8 +301,8 @@ a:hover {
 
 .mfp-fade.mfp-wrap .mfp-content {
 	opacity: 0;
-	-webkit-transition: all 0.15s ease-out; 
-	-moz-transition: all 0.15s ease-out; 
+	-webkit-transition: all 0.15s ease-out;
+	-moz-transition: all 0.15s ease-out;
 	transition: all 0.15s ease-out;
 }
 .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
