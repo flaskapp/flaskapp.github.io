@@ -114,16 +114,17 @@ a:hover {
 	text-decoration: none;
 }
 .hero-text {
-	padding-top: 100px;
-	padding-bottom: 300px;
-	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 20px;
+	float: left;
 }
 .hero-img {
 	width: 450px;
 	float: right;
 	padding-left: 10px;
 	padding-top: 50px;
-	padding-bottom: 60px;
+	padding-bottom: 40px;
+	text-align: right;
 }
 .hero-text h1 {
 	margin: 0;
@@ -152,7 +153,7 @@ a:hover {
 	transform:scale(1.1,1.1);
 }
 .hero-img {
-	text-align: center;
+	text-align: right;
 	overflow: hidden;
 }
 /* content ---------------------------------------- */
@@ -415,7 +416,7 @@ a:hover {
 	}
 	.hero-img {
 		margin: 30px 0 -3px 0;
-		padding: 0;
+		padding: 0 0 20px 0;
 		line-height: 1;
 		width: 100%;
 		height: auto;
