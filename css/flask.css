@@ -179,6 +179,7 @@ dl, dt, dd {
 	width: 100%;
 	float: none;
 	border-bottom: 1px solid #666;
+	padding: 0;
 	}
 	.about {
 	border-top: none;
