@@ -17,7 +17,10 @@ a {
 .row {
 	margin: 0;
 	padding: 0;
+	clear: both;
+	border-top: 1px solid #666;
 }
+
 h1 {
 	font-size: 40px;
 	font-weight: 700;
@@ -32,39 +35,56 @@ p.cp {
 	line-height: 1.4;
 }
 .head {
-	padding: 40px 0 50px 0;
+	padding: 40px 0 20px 0;
 }
 .app-box {
 	margin: 0 auto;
 	background-color: transparent;
 	background-repeat: no-repeat;
-	background-position: left bottom;
-	background-size: auto 350px;
 	width: 1000px;
-	height: 380px;
+	clear: both;
 }
-.app-standland .app-box {
-	height: 390px;
+.about {
+	border-top: 1px solid #666;
+	clear: both;
 }
 .app-text {
-	margin: 0 0 0 auto;
-	padding: 80px 0 20px 0;
-	width: 500px;
+	margin: 0 0 0 0;
+	padding: 160px 0 20px 0;
+	width: 440px;
+	float: right;
+}
+.app-image {
+	float: right;
 }
 .app-text h2 {
 	margin: 20px 0 20px 0;
 	font-weight: 700;
 	line-height: 1.0;
-	font-size: 46px;
-}
-.app-dcc .app-text h2 {
-	font-size: 36px;
+	font-size: 60px;
 }
 .app-text p {
 	margin: 20px 0 25px 0;
 	font-size: 17px;
 }
-
+.otherapps {
+	border-top: 1px solid #666;
+	clear: both;
+}
+.otherapps .app-box {
+	margin: 0 auto;
+	border: none;
+	clear: both;
+}
+.otherapps .app-text {
+	margin: 0 0 0 0;
+	padding: 20px 20px 20px 0;
+	width: 30%;
+	float: left;
+}
+.otherapps .app-text h2 {
+	font-size: 30px;
+}
 a.btn-app,
 a.btn-app:visited {
 	display: block;
@@ -122,87 +142,6 @@ a.btn-app:hover {
 footer {
 	padding: 30px 0 50px 0;
 }
-.app-cube {
-	background-color: #25B2D0;
-}
-.app-cube .app-box {
-	background-image: url(../img/img_cube.png);
-}
-.app-cube h2 {
-	font-size: 40px;
-}
-.app-zones {
-	background-color: #1B1A1A;
-}
-.app-zones .app-box {
-	background-image: url(../img/img_zones.png);
-}
-.app-bitlist {
-	background-color: #C8DB5F;
-}
-.app-bitlist .app-box {
-	background-image: url(../img/img_bitlist.png);
-}
-.app-coyomi {
-	background-color: #4C5A61;
-}
-.app-coyomi .app-box {
-	background-image: url(../img/img_coyomi.png);
-}
-.app-timesheet {
-	background-color: #2BBAC3;
-}
-.app-timesheet .app-box {
-	background-image: url(../img/img_timesheet.png);
-}
-.app-fitport {
-	background-color: #42758F;
-}
-.app-fitport .app-box {
-	background-image: url(../img/img_fitport2.png);
-}
-.app-standland {
-	background-color: #18323F;
-}
-.app-standland .app-box {
-	background-image: url(../img/img_standland2.png);
-}
-.app-timelet {
-	background-color: #6FBCD3;
-}
-.app-timelet .app-box {
-	background-image: url(../img/img_timelet.png);
-}
-.app-popweight {
-	background-color: #B3BAC3;
-}
-.app-popweight .app-box {
-	background-image: url(../img/img_popweight.png);
-}
-.app-freshpantry {
-	background-color: #FDA32F;
-}
-.app-freshpantry .app-box {
-	background-image: url(../img/img_freshpantry.png);
-}
-.app-pictack {
-	background-color: #FF5659;
-}
-.app-pictack .app-box {
-	background-image: url(../img/img_pictack.png);
-}
-.app-dcc {
-	background-color: #8B897F;
-}
-.app-dcc .app-box {
-	background-image: url(../img/img_dcc.png);
-}
-.app-onepath {
-	background-color: #2AA7C5;
-}
-.app-onepath .app-box {
-	background-image: url(../img/img_onepath.png);
-}
 dl, dt, dd {
 	margin: 0;
 	padding: 0;
@@ -216,18 +155,36 @@ dl, dt, dd {
 
 @media (max-width: 1000px) {
 	.app-box {
-		width: 100%;
-		padding: 0 0 130px 0;
-		background-size: auto 300px;
-		background-position: center bottom;
+		width: 99%;
+		padding: 0 0 0 0;
 	}
 	.app-text {
 		margin: 0 auto;
-		padding: 10px 0 0 0;
+		padding: 0 0 0 0;
 		width: 100%;
+		float: none;
+	}
+	.app-text h2 {
+		font-size: 40px;
+	}
+	.app-image {
+		width: 100%;
+		float: none;	
+	}
+	.app-image img {
+		width: 90%;
+		height: auto;	
+	}
+	.otherapps .app-text {
+	width: 100%;
+	float: none;
+	border-bottom: 1px solid #666;
+	}
+	.about {
+	border-top: none;
 	}
 	.box-line {
-		padding: 20px 0 40px 0;
+		padding: 0 0 40px 0;
 		width: 100%;
 	}
 	.team {
