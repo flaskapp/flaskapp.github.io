@@ -1,0 +1,65 @@
+<!DOCTYPE htmls
+<html lang="ja"><head>
+
+	<meta charset="utf-8"><title>ヘルプ | Hops by Flask</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../../css/normalize.min.css">
+	<link rel="stylesheet" href="../../hops/css/style.css">
+</head>
+
+<body class="ja">
+
+<div class="container container-help">
+
+	<div class="navbar-top">
+		<div class="content">
+		<a href="index.html"><i class="fa fa-chevron-left"></i> Hops Home</a>
+		</div>
+	</div>
+
+	<div class="content">
+		<h1><i class="fa fa-smile-o"></i> ヘルプ</h1>
+
+<!-- start -->
+<h2>データ読み込みのタイミング</h2>
+
+<p>Hopsでは、各種アクティビティデータを、Apple「ヘルスケア」から読み込んでいます。そのため、Hopsのデータ更新頻度やタイミングについては、「ヘルスケア」に依存しています。</p>
+
+<p>「ヘルスケア」では、データはリアルタイムに更新されず、ある程度まとまった単位で記録・保管されています。</p>
+<p>そのため、アクティビティを行なってから、Hopsがデータを表示できるようになるまで、若干の時間がかかります。<b>だいたい数分から10分ほどで更新されますが、最大では20分ほどかかる</b>場合があります（この更新頻度は、今後のiOSのアップデートなどで変更になる可能性もあります）。</p>
+
+<p>たとえばクラフト材料は500歩で1個現れますが、500歩歩いてすぐに現れるわけでなく、数分から最大20分かかります。</p>
+
+<p>デイリーゴールの円グラフや数値の更新に関しても同様で、リアルタイムには更新されず、数分から最大20分かかります。そのため、デイリーゴール達成での、エナジーが届くのは、0時ちょうどではなく、待機時間30分が経過した0時30分になります。</p>
+
+<p>ミッションに関しても、ミッションの成功を判断する際に時間の最後のデータまで読み込めるよう、ミッション終了時間から30分の待機時間を設けています。</p>
+
+
+
+<!-- end -->
+
+	<br>
+	<hr>
+	<p><a href="help.html"><i class="fa fa-chevron-left"></i> Help目次へ戻る</a></p>
+	
+	</div><!-- content -->
+</div><!-- container container-help -->
+
+<div class="footer cf">
+	<div class="content">
+		<p class="copyright">© Flask LLP |  <a href="../../hops/help.html">English</a> / <a href="../../ja/hops/help.html">Japanese</a></p>
+	</div><!-- content -->
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44428360-1', 'flaskapp.com');
+  ga('send', 'pageview');
+</script>
+
+</body></html>
