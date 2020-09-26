@@ -1,31 +1,25 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-
+<html lang="en">
+<head>
 	<meta charset="utf-8"><title>Help | Ermine by Flask</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="../css/normalize.min.css">
 	<link rel="stylesheet" href="css/style.css">
 
-	<style type="text/css">
-
+	<style>
 	Table.matrix {
 	}
 	.matrix th {
 		text-align: center;
 	}
 	.matrix td {
-		font-size: 250%;
 		text-align: center;
 	}
-
 	</style>
 </head>
-
 <body class="en">
-
 <div class="container container-help">
-
 	<div class="navbar-top">
 		<div class="content">
 		<a href="index.html"><i class="fa fa-chevron-left"></i> Ermine Home</a>
@@ -35,51 +29,54 @@
 	<div class="content">
 		<h1><i class="fa fa-smile-o"></i> Help</h1>
 
-<!-- start -------------------- -->
-<h2>Holiday Calendars</h2>
+<!-- start ============================== -->
+<h2>How to Set Holiday Calendars</h2>
 
-<p>
-Holidays can be changed by setting of Holiday Calendars.<br>
-Please set <a href="https://support.apple.com/HT208541">the holiday calendar built into your device</a>.<br>
-If you want to customize holidays, create a your holiday calendar and set it.<br>
-Holiday color cannot be changed.
-</p>
+<p>Setting a calendar as a "Holiday Calendars" allows you to display the date of holidays in red.</p>
+
+<p>To set up a calendar for holidays, use the <a href="https://support.apple.com/HT208541">built-in holiday calendar in your device</a>. The name of the calendar changes depending on the region. (In the US, it is US Holidays.)</p>
+
+<p>If you want to customize holidays, create a new calendar in Apple's Calendar app, and set it as "Holiday Calendars" in Ermine.</p>
 
 <h3>Behavior of Holiday Calendars</h3>
 
 <ul>
-	<li>The date of the event exists will be shown in red.</li>
-	<li>The event name is not shown in the month view of the app.</li>
-	<li>You can not create new event.</li>
+	<li>Days that have events are shown in red.<br>
+	You can change the color freely for the widgets (Paid Pro feature).</li>
+	<li>The event title is not displayed in the month view. <br>
+	If you want to see the title, tap the date and it will appear at the bottom.</li>
+	<li>You can not add an event for a holiday calendar.<br>
+	If you want to add an event to a holiday calendar, create a new calendar in Apple's Calendar app and set it as Holiday Calendars and Events Calendars in Ermine.</li>
 </ul>
 
-<p>
-	If you want to create a new event in the holiday calendar, set both the Event Calendars and the Holiday Calendars.
-</p>
-
 <h3>Difference between Event Calendars and Holiday Calendars</h3>
+
 <table class="matrix">
-	<tr><th colspan="2">Setting</th></tr>
-	<tr><th>Event</th><th>Holiday</th><th>Month View</th><th>Widget</th><th>Create Event</th></tr>
-	<tr><td>○</td><td>×</td>
-		<td><img width="82" src="./img/help02_01.png"></td>
-		<td><img width="38" src="./img/help02_04.png"></td>
-		<td>○</td>
+	<tr><th colspan="2">Settings</th><th colspan="3">Outcome</th></tr>
+	<tr><th>Event<br>Calendar</th><th>Holiday<br>Calendar</th><th>Month View</th><th>Widget</th><th>Can Create Event</th></tr>
+	<tr><td>☑️</td><td>--</td>
+		<td><img width="82" src="./img/help02_01.png" alt=""></td>
+		<td><img width="38" src="./img/help02_04.png" alt=""></td>
+		<td>Yes</td>
 	</tr>
-	<tr><td>×</td><td>○</td>
-		<td><img width="82" src="./img/help02_02.png"></td>
-		<td><img width="38" src="./img/help02_05.png"></td>
-		<td>×</td>
+	<tr><td>--</td><td>☑️</td>
+		<td><img width="82" src="./img/help02_02.png" alt=""></td>
+		<td><img width="38" src="./img/help02_05.png" alt=""></td>
+		<td>No</td>
 	</tr>
-	<tr><td>○</td><td>○</td>
-		<td><img width="82" src="./img/help02_03.png"></td>
-		<td><img width="38" src="./img/help02_06.png"></td>
-		<td>○</td>
+	<tr><td>☑️</td><td>☑️</td>
+		<td><img width="82" src="./img/help02_03.png" alt=""></td>
+		<td><img width="38" src="./img/help02_06.png" alt=""></td>
+		<td>Yes</td>
 	</tr>
 </table>
 
 
-<!-- end -------------------- -->
+<!-- end ============================== -->
+
+	<br>
+	<hr>
+	<p><a href="help.html"><i class="fa fa-chevron-left"></i> Back to Help Index</a></p>
 
 	</div><!-- content -->
 </div><!-- container container-help -->

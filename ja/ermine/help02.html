@@ -1,31 +1,25 @@
-<!DOCTYPE htmls
-<html lang="ja"><head>
-
+<!DOCTYPE html>
+<html lang="ja">
+<head>
 	<meta charset="utf-8"><title>ヘルプ | Ermine by Flask</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="../../css/normalize.min.css">
 	<link rel="stylesheet" href="../../ermine/css/style.css">
 
-	<style type="text/css">
-
+	<style>
 	Table.matrix {
 	}
 	.matrix th {
 		text-align: center;
 	}
 	.matrix td {
-		font-size: 250%;
 		text-align: center;
 	}
-
 	</style>
 </head>
-
 <body class="ja">
-
 <div class="container container-help">
-
 	<div class="navbar-top">
 		<div class="content">
 		<a href="index.html"><i class="fa fa-chevron-left"></i> Ermine Home</a>
@@ -35,53 +29,47 @@
 	<div class="content">
 		<h1><i class="fa fa-smile-o"></i> ヘルプ</h1>
 
-<!-- start -------------------- -->
+<!-- start ============================== -->
 <h2>祝日の設定</h2>
 
-<p>
-祝日は、祝日のカレンダーを設定することで変更ができます。<br>
-<a href="https://support.apple.com/ja-jp/HT208541">デバイスに内蔵されている祝日カレンダー</a>などを設定してください。<br>
-カレンダーの名称は、デバイスに設定されている地域によって変わり、日本の場合は、「日本の祝日」になります。<br>
-祝日をカスタマイズしたい場合は、別途、祝日用のカレンダーを作成して設定してください。<br>
-祝日の色を変更することはできません。
-</p>
+<p>「祝日カレンダー」としてカレンダーを登録することで、祝日の日付を赤色に表示することができます。</p>
+
+<p>設定するカレンダーは、<a href="https://support.apple.com/ja-jp/HT208541">端末に内蔵されている祝日カレンダー</a>などをご利用ください。カレンダーの名称は、地域によって変わります。日本の場合は「日本の祝日」になります。</p>
+
+<p>個人的な休日を追加したいなど、祝日をご自分用にカスタマイズしたい場合は、別途、祝日用のカレンダーを作成して設定してください。カレンダーの作成はAppleのカレンダーアプリから行えます。</p>
 
 <h3>祝日カレンダーの動き</h3>
 
 <ul>
-	<li>予定が登録されている日付が赤色になります。</li>
-	<li>アプリの月表示では、予定名は表示されません。</li>
-	<li>予定の追加はできません。</li>
+	<li>予定が登録されている日付が赤色になります。<br>アプリ本体では祝日色は赤色固定です。ウィジェットでは自由に変更できます（有料Pro機能）。</li>
+	<li>アプリの月表示では、予定の名称は表示されません。下部には表示されます。</li>
+	<li>予定の追加はできません。<br>祝日カレンダーにも予定を追加をしたい場合は、新しいカレンダーを作成し、「祝日カレンダー」と「イベントカレンダー」の両方にそのカレンダーを設定してください。</li>
 </ul>
 
-<p>
-	祝日カレンダーの予定も追加をしたい場合は、イベントカレンダーと両方に設定してください。
-</p>
+<p></p>
 
 <h3>イベントカレンダーと祝日カレンダーの設定による差</h3>
 <table class="matrix">
-	<tr><th colspan="2">設定内容</th></tr>
-	<tr><th>イベント</th><th>祝日</th><th>アプリの月表示</th><th>ウィジェットの表示</th><th>予定の追加</th></tr>
-	<tr><td>○</td><td>×</td>
-		<td><img width="82" src="../../ermine/img/help02_01.png"></td>
-		<td><img width="38" src="../../ermine/img/help02_04.png"></td>
-		<td>○</td>
+	<tr><th colspan="2">設定</th><th colspan="3">結果</th></tr>
+	<tr><th>イベント<br>カレンダー</th><th>祝日<br>カレンダー</th><th>アプリの月表示</th><th>ウィジェットの表示</th><th>予定の追加</th></tr>
+	<tr><td>☑️</td><td>--</td>
+		<td><img width="82" src="../../ermine/img/help02_01.png" alt=""></td>
+		<td><img width="38" src="../../ermine/img/help02_04.png" alt=""></td>
+		<td>できる</td>
 	</tr>
-	<tr><td>×</td><td>○</td>
-		<td><img width="82" src="../../ermine/img/help02_02.png"></td>
-		<td><img width="38" src="../../ermine/img/help02_05.png"></td>
-		<td>×</td>
+	<tr><td>--</td><td>☑️</td>
+		<td><img width="82" src="../../ermine/img/help02_02.png" alt=""></td>
+		<td><img width="38" src="../../ermine/img/help02_05.png" alt=""></td>
+		<td>できない</td>
 	</tr>
-	<tr><td>○</td><td>○</td>
-		<td><img width="82" src="../../ermine/img/help02_03.png"></td>
-		<td><img width="38" src="../../ermine/img/help02_06.png"></td>
-		<td>○</td>
+	<tr><td>☑️</td><td>☑️</td>
+		<td><img width="82" src="../../ermine/img/help02_03.png" alt=""></td>
+		<td><img width="38" src="../../ermine/img/help02_06.png" alt=""></td>
+		<td>できる</td>
 	</tr>
 </table>
 
-
-
-<!-- end -------------------- -->
+<!-- end ============================== -->
 
 	<br>
 	<hr>

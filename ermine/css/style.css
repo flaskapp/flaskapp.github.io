@@ -1,9 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Maven+Pro:500,900);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Maven Pro', sans-serif;
+	font-family: sans-serif;
 	font-size: 16px;
 	color: #333;
 	background-color: #fefefe;
@@ -12,13 +12,14 @@ p {
 	line-height: 1.4;
 }
 h1, h2, h3, h4 {
+	font-family: sans-serif;
 	line-height: 1.2;
 }
 body.en h1,
 body.en h2,
 body.en h3,
 body.en h4 {
-	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .content {
