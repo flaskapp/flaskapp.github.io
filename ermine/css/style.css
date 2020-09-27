@@ -31,7 +31,14 @@ body.en h4 {
 	clear: both;
 	display: block;
 }
-
+h1 a {
+	text-decoration: none;
+	color: #333;
+}
+h1 a:hover {
+	text-decoration: none;
+	color: #1699B6;
+}
 a {
 	color: #1699B6;
 }
