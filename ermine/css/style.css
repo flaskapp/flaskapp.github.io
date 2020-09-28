@@ -3,7 +3,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
+	font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
 	font-size: 16px;
 	color: #333;
 	background-color: #fefefe;
@@ -12,7 +12,6 @@ p {
 	line-height: 1.4;
 }
 h1, h2, h3, h4 {
-	font-family: sans-serif;
 	line-height: 1.2;
 }
 body.en h1,
