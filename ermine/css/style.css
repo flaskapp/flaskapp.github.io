@@ -64,19 +64,17 @@ hr {
 .hero {
 	color: #fff;
 	background-color: #000000;
-/* 	background-image: url('../img/bg.jpg'); */
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
+	background-image: url('../img/topbg.jpg');
+	background-repeat: repeat;
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: contain;
 }
 -@media screen and (max-width:640px){
 	.hero {
 /* 		background-image: url('../img/bg_m.jpg'); */
-		background-position: 50% 50%;
-		background-repeat: no-repeat;
+		/* background-position: 50% 50%; */
 		background-attachment: fixed;
-		background-size: cover;
+		/* background-size: cover; */
 	}
 }
 .hero a,
