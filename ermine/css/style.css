@@ -269,9 +269,6 @@ p.hero-store {
 .container-help .content {
 	padding: 0 30px;
 }
-.container-help p {
-	font-family: sans-serif;
-}
 @media screen and (max-width:770px){
 	.container-help {
 		padding: 0 0 30px 0;
