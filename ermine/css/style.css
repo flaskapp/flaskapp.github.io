@@ -59,6 +59,11 @@ hr {
 	border: 0;
 	border-top: 1px dashed #333;
 }
+img.inlineicon {
+	vertical-align: -0.2em;
+	margin-left: 0.1em;
+	margin-right: 0.1em;
+}
 /* hero ---------------------------------------- */
 
 .hero {
