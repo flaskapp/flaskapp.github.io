@@ -1,9 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Maven+Pro:500,900);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Maven Pro', sans-serif;
+	font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
 	font-size: 16px;
 	color: #333;
 	background-color: #fefefe;
@@ -14,11 +14,11 @@ p {
 h1, h2, h3, h4 {
 	line-height: 1.2;
 }
-body.en h1,
-body.en h2,
+body h1,
+body h2,
 body.en h3,
 body.en h4 {
-	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .content {
@@ -51,7 +51,7 @@ a:hover {
 .hero {
 	color: #fff;
 	background-color: #000000;
-	background-image: url('../img/bg3.jpg');
+	background-image: url('../img/bg1.jpg');
   background-position: 50% 50%;
   background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -114,16 +114,12 @@ a:hover {
 	text-decoration: none;
 }
 .hero-text {
-	width: 480px;
-	float: left;
-	padding-top: 250px;
+	padding-top: 50px;
+	text-align: center;
 }
 .hero-img {
-	width: 450px;
-	float: right;
-	padding-left: 10px;
-	padding-top: 50px;
 	padding-bottom: 60px;
+	text-align: center;
 }
 .hero-text h1 {
 	margin: 0;
