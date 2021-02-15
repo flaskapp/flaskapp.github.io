@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="../../css/normalize.min.css">
 	<link rel="stylesheet" href="../../ermine/css/style.css">
+
 </head>
 <body class="ja">
 <div class="container container-help">
@@ -15,33 +16,31 @@
 		</div>
 	</div>
 	<div class="content">
-		<h1><i class="fa fa-smile-o"></i> ヘルプ</h1>
+		<h1><a href="help.html"><i class="fa fa-smile-o"></i> ヘルプ</a></h1>
 
-		<h2>ガイド</h2>
-		<ul>
-			<li><a href="help01.html">ホーム画面にウィジェットを表示する</a></li>
-			<li><a href="help03.html">イベントカレンダーの設定</a></li>
-			<li><a href="help02.html">祝日カレンダーの設定</a></li>
-			<li><a href="help04.html">iCloud、Google、Exchange、Yahooカレンダーなどを使う</a></li>
-			<li><a href="help07.html">予定を追加する</a></li>
-			<li><a href="help08.html">言語の変更</a></li>
-		</ul>
+<!-- start ============================== -->
+<h2>過去の予定が消えた</h2>
 
-		<h2>よくある質問 / トラブルシューティング</h2>
-		<ul>
-			<li><a href="help05.html">ウィジェットが更新されない</a></li>
-			<li><a href="help06.html">祝日が間違っている、または表示されない</a></li>
-			<li><a href="help09.html">過去のデータが消えた</a></li>
-		</ul>
+<p>ErmineはiOSのカレンダーからデータを読み込んでいます。過去の予定が見えなくなってしまった場合、iOSカレンダーが過去のデータを同期しない設定になっている可能性があります。
+</p>
 
-		<!-- <h2>既知の問題</h2>
-		<ul>
-			<li>カラーピッカー（解決済み）
-				<ul>
-					<li>ウィジェットの背景色の設定で、カラーピッカーの「スライダ」を利用すると色が正しく保存されない場合があります。この問題はアップデート（version 1.1.0）で修正済みなので、最新版にアップデートをお願いします。</li>
-				</ul>
-			</li>
-		</ul> -->
+<p>下記の手順で設定をご確認ください。</p>
+
+<ol>
+	<li>iOSの「設定<img src="../../img/appicon_apple_settings@2x.png" alt="" width="20" class="inlineicon">」アプリを開く</li>
+	<li>「カレンダー」をタップ</li>
+	<li>「同期」をタップ</li>
+	<li>「すべてのイベント」を選択</li>
+	<li>iOS標準の「カレンダー」アプリを起動して、データが見えるようになったか確認</li>
+</ol>
+
+<p><img src="../../ermine/img/help09_ja@2x.png" alt="" width="300"></p>
+
+<!-- end ============================== -->
+
+	<br>
+	<hr>
+	<p><a href="help.html"><i class="fa fa-chevron-left"></i> Help目次へ戻る</a></p>
 
 	</div><!-- content -->
 </div><!-- container container-help -->
