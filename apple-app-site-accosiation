@@ -1,0 +1,11 @@
+{
+  "applinks": {
+       "apps": [],
+        "details": [
+           {
+               "appID":"37HX6DX7T7.com.flaskapp.hops",
+               "paths":[ "/hops/*" ]
+           }
+         ]
+    }
+}
