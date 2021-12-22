@@ -4,7 +4,7 @@
         "details": [
            {
                "appID":"37HX6DX7T7.com.flaskapp.hops",
-               "paths":[ "/hops/events.html" ]
+               "paths":[ "/hops/", "/ja/hops/" ]
            }
          ]
     }
