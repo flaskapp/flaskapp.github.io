@@ -7,7 +7,7 @@
 			},
 			"app_version": "3.0.1",
 			"message": {
-				"base": {
+				"en": {
 					"type": "NEW FEATURE",
 					"title": "Sample",
 					"message": "Sample Message."
@@ -23,7 +23,7 @@
 			"id": "ud300",
 			"app_version": "3.0.0",
 			"message": {
-				"base": {
+				"en": {
 					"title": "Mushroom Forest",
 					"message": "Get the map on Map view, and explore the new forest."
 				},
