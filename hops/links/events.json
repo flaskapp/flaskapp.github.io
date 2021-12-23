@@ -2,8 +2,8 @@
 	"events": [{
 			"id": "udTest",
 			"image": {
-				"2x": "https://flaskapp.com/hops/links/img/sample2x.jpg",
-				"3x": "https://flaskapp.com/hops/links/img/sample3x.jpg"
+				"2x": "https://flaskapp.com/hops/links/img/sample@2x.jpg",
+				"3x": "https://flaskapp.com/hops/links/img/sample@3x.jpg"
 			},
 			"app_version": "3.0.1",
 			"message": {
@@ -21,10 +21,6 @@
 		},
 		{
 			"id": "ud300",
-			"image": {
-				"2x": "https://flaskapp.com/hops/links/img/ud300@2x.jpg",
-				"3x": "https://flaskapp.com/hops/links/img/ud300@3x.jpg"
-			},
 			"app_version": "3.0.0",
 			"message": {
 				"base": {
