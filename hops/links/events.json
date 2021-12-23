@@ -1,22 +1,41 @@
 {
 	"events": [{
-		"id": "ud300",
-		"image": {
-			"2x": "https://flaskapp.com/hops/links/img/ud300@2x.png",
-			"3x": "https://flaskapp.com/hops/links/img/ud300@3x.png"
-		},
-		"app_version": "3.0.0",
-		"message": {
-			"base": {
-				"type": "New Feature",
-				"title": "Mushroom Forest",
-				"message": "Get the map on Map view, and explore the new forest."
+			"id": "udTest",
+			"image": {
+				"2x": "https://flaskapp.com/hops/links/img/sample2x.jpg",
+				"3x": "https://flaskapp.com/hops/links/img/sample3x.jpg"
 			},
-			"ja": {
-				"type": "新機能",
-				"title": "キノコの森",
-				"message": "魔法の葉っぱで「キノコの森」のマップを手に入れよう！ 今すぐマップ画面へ！"
+			"app_version": "3.0.1",
+			"message": {
+				"base": {
+					"type": "NEW FEATURE",
+					"title": "Sample",
+					"message": "Sample Message."
+				},
+				"ja": {
+					"type": "新機能",
+					"title": "サンプルタイトル",
+					"message": "サンプルメッセージ"
+				}
+			}
+		},
+		{
+			"id": "ud300",
+			"image": {
+				"2x": "https://flaskapp.com/hops/links/img/ud300@2x.jpg",
+				"3x": "https://flaskapp.com/hops/links/img/ud300@3x.jpg"
+			},
+			"app_version": "3.0.0",
+			"message": {
+				"base": {
+					"title": "Mushroom Forest",
+					"message": "Get the map on Map view, and explore the new forest."
+				},
+				"ja": {
+					"title": "キノコの森",
+					"message": "魔法の葉っぱで「キノコの森」のマップを手に入れよう！ 今すぐマップ画面へ！"
+				}
 			}
 		}
-	}]
+	]
 }
