@@ -23,78 +23,137 @@
 	<div class="content">
 		<h1><i class="fa fa-smile-o"></i> Help</h1>
 
-		<h1>Workout Detail</h1>
+	<h1>Workout Detail</h1>
+	<p>
+		<img src="img/help19_01.png" width="375px" />
+	</p>
 
+	<dl>
+		<dt id="1">1. Edit</dt>
+		<dd>
+		You can edit the workout name, activity type, location, time, active calories, and distance.<br />
+		It is displayed only in the workout recorded by Zones.
+		</dd>
+		<dt id="2">2. Delete</dt>
+		<dd>
+			It is displayed only in the workout recorded by Zones.<br />
+			Once deleted, data can not be restored. Please be careful.
+		</dd>
+		<dd>
+			Workouts registered with other app can not be deleted. This is a limitation of iOS (HealthKit).<br />
+			Please delete it with registered app or Apple's Health app.
+		</dd>
+		<dt id="3">3. Share</dt>
+		<dt id="4">4. Workout Date</dt>
+		<dd>Date on which workout started.</dd>
+		<dt id="5">5. Workout Time</dt>
+		<dd>Workout start time - workout end time</dd>
+		<dt id="6">6. Registered app (Source)</dt>
+		<dt id="7">7. Workout Name</dt>
+		<dd>If you have set a name in a custom workout, that name will be displayed.<br />
+			Otherwise, the activity name is displayed.</dd>
+	</dl>
+
+
+	<h2 id="8">8. Workout Summary</h2>
 		<p>
-			<img src="img/help19_01.png" />
+		View your workout summary including heart rate zone times, duration, total calories and more.
+		</p>
+		<p>
+			<img src="img/help19_02.png" width="375px" />
 		</p>
 
 		<dl>
-			<dt id="1">1. Edit</dt>
-			<dd>It is displayed only in the workout recorded by Zones.</dd>
-			<dt id="2">2. Delete</dt>
-			<dd>
-				It is displayed only in the workout recorded by Zones.<br />
-				Once deleted, data can not be restored. Please be careful.
+			<dt id="9">9. Route Map</dt>
+			<dd>It is a map of the moved location information. Displayed only when location information is recorded.<br />
+				The color of the route line is the color of the heart rate zone.<br />
+				Tap the map to see more detailed information on a large map.<br />
+				<a href="help-05.html">Route Map does not Appear</a>
 			</dd>
+			<dt id="10">10. Heart Rate Zone</dt>
 			<dd>
-				Workouts registered with other app can not be deleted. This is a limitation of iOS (HealthKit).<br />
-				Please delete it with registered app or Apple's Health app.
+			Shows time and percentage spent in heart rate zones.<br />
+			This display requires heart rate data.
 			</dd>
-			<dt id="3">3. Share</dt>
-			<dt id="4">4. Workout Date</dt>
-			<dd>Date on which workout started.</dd>
-			<dt id="5">5. Workout Time</dt>
-			<dd>Workout start time - workout end time</dd>
-			<dt id="6">6. Registered app (Source)</dt>
-			<dt id="7">7. Workout Name</dt>
-			<dd>If you have set a name in a custom workout, that name will be displayed.<br />
-				Otherwise, the activity name is displayed.</dd>
-			<dt id="8">8. Route Map</dt>
-			<dd>If route information was recorded, a tab will be displayed.<br />
-			<a href="help-05.html">If route map does not Appear</a></dd>
 		</dl>
 
 
 		<p>
-			<img src="img/help19_02.png" />
+			<img src="img/help19_03.png" width="375px" />
 		</p>
 		<dl>
-			<dt id="9">9. Duration</dt>
-			<dd>Workout duration excluding pause time.</dd>
-			<dt id="10">10. Total Active Calories</dt>
-			<dd>It is the total of calories consumed during workout.<br />
-				If the values ​​are very different, try <a href="help-16.html">Re-collect sample data</a>.
-			</dd>
-			<dt id="11">11. Total Distance</dt>
-			<dd>It is the total distance traveled during workout.<br />
-				If the values ​​are very different, try <a href="help-16.html">Re-collect sample data</a>.
-			</dd>
-			<dt id="12">12. Speed</dt>
-			<dd>It is the speed calculated from "9. Duration" and "11. Total Distance".<br />
-				However, the calculation is different in the following cases.<br />
-				If lap is registered by swimming, use the total time of lap instead of "9. Duration".<br />
-				If segment is registered by downhill ski / snowboard, the average of the segment speed is displayed.
-			</dd>
-			<dt id="13">13. 14. Average, Max-Min Exercise Intensity</dt>
-			<dd>Exercise intensity calculated from the heart rate and Heart Rate Zone.<br />
-				If there is no record of heart rate, -- will be displayed.
-			</dd>
-			<dt id="15">15. 16. Average, Max-Min Heart Rate</dt>
+			<dt id="11">11. Overview</dt>
 			<dd>
-				If there is no record of heart rate, -- will be displayed.
+			<dl>
+				<dt id="duration">Duration</dt>
+				<dd>Workout duration excluding pause time.</dd>
+				<dt id="calories">Active Calories</dt>
+				<dd>It is the total of calories consumed during workout.<br />
+					If the values ​​are very different, try <a href="help-16.html">Re-collect sample data</a>.
+				</dd>
+
+				<dt id="distance">Distance</dt>
+				<dd>It is the total distance traveled during workout.<br />
+					If the values ​​are very different, try <a href="help-16.html">Re-collect sample data</a>.
+				</dd>
+
+				<dt id="speed">Pace・Speed</dt>
+				<dd>It is the speed calculated from "Duration" and "Distance".<br />
+					However, the calculation is different in the following cases.<br />
+					If lap is registered by swimming, use the total time of lap instead of "Duration".<br />
+					If segment is registered by downhill ski / snowboard, the average of the segment speed is displayed.
+				</dd>
+				<dd>The speed format can be changed in the settings.</dd>
+
+				<dt id="intensity">Intensity</dt>
+				<dd><a href="help-01.html">Intensity is a percentage of your maximum heart rate</a>.
+				</dd>
+				
+				<dt id="mets">Avg. METs</dt>
+				<dd><a href="help-31.html">METs</a> is are a unit of exercise intensity that indicates how many times more energy is consumed compared to when resting is 1.
+				</dd>
+				
+				<dt id="steps">Steps</dt>
+				<dd>The total number of steps taken during your workout.<br />
+				It will be recorded when you do running or a custom workout with steps.
+				</dd>
+
+				<dt id="cadence">Cadence</dt>
+				<dd>The number of steps taken in one minute. Also called pitch. This value is calculated from "Steps". </dd>
+				
+				<dt id="running_power">Running Power</dt>
+				<dd>It is the amount of exercise in watts during running.<br />
+				It reflects the intensity of your run and can give a sense of your effort as your speed or incline changes.
+				</dd>
+
+				<dd>
+				For more running form items, see <a href="#16">Running Form Metrics</a>.
+				</dd>
+			</dl>
 			</dd>
-			<dt id="17">17. Recovery Heart Rate</dt>
-			<dd>It is displayed if Recovery Heart Rate is recorded.<br />
-				Please refer to <a href="help-03.html">Recovery Heart Rate</a>.
 		</dl>
 
+		<p>
+			<img src="img/help19_04.png" width="375px" />
+		</p>
 		<dl>
-			<dt id="18">18. Section</dt>
+			<dt id="12">12. Heart Rate</dt>
+			<dd></dd>
+
+			<dt id="13">13. Heart Rate Recovery</dt>
+			<dd>It is a value that compares the heart rate after 1 minute or 2 minutes after training and how much it has recovered (decreased).<br />
+				<a href="help-03.html">Heart Rate Recovery</a></dd>
+		</dl>
+
+
+		<p>
+			<img src="img/help19_05.png" width="375px" />
+		</p>
+		<dl>
+			<dt id="14">14. Workout Segments</dt>
 			<dd>
 				It is displayed when the section information is in the workout.<br />
 				You can see detailed information such as distance and speed for each section.<br />
-				<img src="img/help19_04.png" width="170px"/><br />
 				In order to display the distance and speed in section, distance data must be attached to the workout.<br />
 				(Distance data is attached to the workout measured by Zones app.)
 			</dd>
@@ -138,48 +197,58 @@
 				You can see original data at the Workout Detail > Workout Events on Apple Health app.
 		</dl>
 
+		<h2 id="15">15. Charts</h2>
 		<p>
-			<img src="img/help19_03.png" />
+			<img src="img/help19_06.png" width="375px" />
+		</p>
+		<p>
+		You can check detailed information on the chart with the elapsed time of the workout on the horizontal axis.<br />
+		Tap the graph to see the values at that point in time.
+		</p>
+		<p>
+		Use sample data tied to your workout.<br />
+		If not tied to a workout, get time-filtered data from Health.
 		</p>
 		<dl>
-			<dt id="19">19. Heart Rate</dt>
-			<dd>
-				Displays the minimum - maximum heart rate during workout.<br />
-				Tap the graph to display the heart rate at that point.<br />
-			</dd>
-			<dd>
-				Heart rate will be obtained from iPhone's Health.<br />
-				The color of the graph line changes according to the setting of the heart rate zone.
-			</dd>
-			<dt id="20">20. Speed</dt>
-			<dd>
-				Displays the average speed of the workout.<br />
-				Tap the graph to display the speed at that point.
-			</dd>
-			<dd>
-				Graph of speed is created from distance sample data.<br />
-				If distance data is attached to the workout, that data will be displayed.
-				If it is not attached, it will read data from Apple Health.<br />
-			</dd>
-			<dt id="21">21. Active Line</dt>
-			<dd>
-				The part where the line under the graph is not drawn is the section paused (stopped).
+			<dt>a. Heart Rate</dt>
+			<dd>The color of the graph line is the color of the heart rate zone.</dd>
+			<dt>b. Speed・Pace</dt>
+			<dd>The speed in this graph is created from the "Distance" data.</dd>
+			<dt>c. Elevation</dt>
+			<dd>It uses the altitude included in the location information..<br />
+				Depending on the GPS measurement environment, the altitude may not be accurate.
 			</dd>
 		</dl>
-		<p>
-			<img src="img/help19_05.png" />
+		<p>Also shown are cadence, running power, active calories, distance and step charts.<br />
+		Which charts are displayed depends on your workout data.
 		</p>
+
+		<h2 id="16">16. Running Form Metrics</h2>
+		<p>
+			<img src="img/help19_07.png" width="375px" />
+		</p>
+		<p>
+		The Running Form Metrics was introduced in watchOS 9. It will be recorded if you outdoor running.
+		It will not be recorded when you are not running, such as when you are walking. (confirmed with watchOS 9.0)
+		</p>
+
+		<p>
+		Running Man's animation changes depending on the measurements.<br />
+		When you tap the graph, it becomes an animation using the measured value at that time.<br />
+		</p>
+
 		<dl>
-				<dt id="22">22. Route Map Line Color</dt>
-				<dd>
-					You can change the line color of the route map to the following by tapping on this area.<br />
-					<ul>
-						<li>Heart Rate Zone</li>
-						<li>Speed</li>
-						<li>Altitude (GPS Altitude)</li>
-					</ul>
-				</dd>
-				<dt id="23">23. Route Map Share</dt>
+			<dt id="running_vertical">Vertical Oscillation</dt>
+			<dd>It is the value that the body goes up and down per one step. <br />
+			It is said that the lower the number, the better the running efficiency and the better the running form.<br />
+			</dd>
+			<dt id="running_gct">Ground Contact Time</dt>
+			<dd> It's the time your feet are on the ground per step. Experienced runners tend to have shorter times.</dd>
+			<dt id="running_power">Running Stride Length</dt>
+			<dd>It is stride length per one step. Also called stride.</dd>
+			<dt id="running_speed">Running Speed</dt>
+			<dd>The running speed as measured by watchOS. Please note that the value is different from the speed calculated from the "Distance" data.<br />
+			The cadence (spm) value displayed in the animation area is a value calculated from "Running Stride Length" and "Running Speed".			</dd>
 		</dl>
 
 	</div><!-- content -->
