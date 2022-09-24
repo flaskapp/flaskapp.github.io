@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="../css/normalize.min.css">
 	<link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body class="en">
@@ -27,9 +28,25 @@
 		<img src="img/health_app.png" width="75px" />
 		<p>Zones app saves data in Apple Health.<br />
 			Permission is required for use.
-	  </p>
+		</p>
+		
+		<div class="box-note">
+			<span class="box-title">Notes</span>
+			<p><strong>Check Health permissions on both iPhone and Apple Watch.</strong></p>
+			<p>
+			It seems that health permissions may not be synchronized between iPhone and Apple Watch.<br />
+			For example, there were items in Health on Apple Watch that were not displayed in Health on iPhone.<br />
+			It may be fixed in a future OS update, but at this time we have not found a solution other than setting it on both devices.
+			</p>
+			<p>
+			When using Zones v6.0.0 - 6.0.2 with sync failure,
+			"Health's permission setting is displayed every time", "I should have allowed everything, but a denied message is displayed", etc. may occur.<br />
+			Therefore, in Zones v 6.0.3, it has been fixed so that the message will not be displayed every time, but please check the health care permission on both iPhone and Apple Watch to prevent data loss.
+			</p>
+		</div>
 
 		<h2>How to Check</h2>
+
 		<h3>iPhone</h3>
 		<h4>iOS 15 or later</h4>
 		<img src="img/help14_02.png" width="575px" />
@@ -50,26 +67,21 @@
 			<li>Turn on all write / read switches</li>
 		</ol>
 
-		<h4>iOS 12</h4>
-		<ol>
-			<li>Open Apple "Health" app in iPhone</li>
-			<li>Tap "Sources" of tab</li>
-			<li>Tap "Zones"</li>
-			<li>Turn on all write / read switches</li>
-		</ol>
-
 		<h3>Apple Watch</h3>
+		<img src="img/help14_03.png" width="570px" />
 		<ol>
 			<li>Open "Settings" app in Apple Watch</li>
 			<li>Tap "Health"</li>
-			<li>Tap "App"</li>
+			<li>Tap "Apps"</li>
 			<li>Tap "Zones"</li>
 			<li>Turn on all write / read switches</li>
 		</ol>
 
+<!--
 		<h2>Setting Items</h2>
 		<img src="./img/help04_01.png" width="187px"><br />
 		<p>The setting items may change depending on your environment.</p>
+-->
 
 		<h2>References</h2>
 		<p>
