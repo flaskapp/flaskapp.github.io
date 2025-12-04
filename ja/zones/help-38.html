@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+
+	<meta charset="utf-8"><title>ヘルプ | Zones</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="/zones/img/favicon.ico">
+	<link rel="apple-touch-icon" href="/zones/img/apple-touch-icon.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../../css/normalize.min.css">
+	<link rel="stylesheet" href="../../zones/css/style.css">
+</head>
+<body class="en">
+
+<div class="container container-help">
+
+	<div class="navbar-top">
+		<div class="content">
+		<a href="help.html"><i class="fa fa-chevron-left"></i> Zones ヘルプ目次</a>
+		</div>
+	</div>
+
+	<div class="content">
+		<h1><i class="fa fa-smile-o"></i> ヘルプ</h1>
+
+		<h1>データ出力</h1>
+		<p>
+		ワークアウトのデータは、Appleヘルスケアの機能、または Zones の機能を使って出力できます。<br>
+		<table>
+			<tr><th>アプリ</th><th>形式</th><th>対象範囲</th></tr>
+			<tr><td>ヘルスケア</td><td>XML</td><td>すべてのデータ</td></tr>
+			<tr><td>Zones</td><td>JSON</td><td>ワークアウトごと</td></tr>
+		</table>
+
+		</p>
+
+		<h2>ヘルスケアでデータを出力する</h2>
+		<p>
+		Appleヘルスケアでは、すべてのヘルスケアデータを XML形式で書き出すことができます。
+		</p>
+		<ol>
+		<li>Appleヘルスケアアプリを開く</li>
+		<li>プロフィールアイコンをタップ</li>
+		<li>「すべてのヘルスケアデータを書き出す」をタップ</li>
+		</ol>
+		💡 <a href="https://support.apple.com/guide/iphone/iph5ede58c3d/ios/#iphe962dcbd2">[Apple サポート]ヘルスケアおよびフィットネスのデータをXMLフォーマットで共有する</a>
+		
+		<h2>Zonesでデータを出力する</h2>
+		<p>
+			Zones では、ワークアウトデータを JSON 形式のファイルとして出力できます。  
+			この操作はショートカットアプリからも行えます。<br />
+			この機能を利用するには、Zones バージョン 9 以上が必要です。
+		</p>
+
+		<h3>アプリ画面から出力する</h3>
+
+		<h4>操作手順</h4>
+		<ol>
+		<li>ワークアウト画面で、出力ボタンをタップ</li>
+		<li>「JSONファイル」をタップ</li>
+		<li>シェアシートが表示される</li>
+		</ol>
+		<img src="./img/help38_01.png" width="667px" />
+
+		<h3>ショートカットから出力する</h3>
+		<p>ショートカットから実行する場合は、最新のワークアウトが出力対象になります。</p>
+
+		<h4>操作手順</h4>
+		<ol>
+		<li>ショートカットアプリで新規ショートカットを作成し、アクション一覧から「Zones」をタップ</li>
+		<li>「ワークアウトをJSONで出力」をタップ</li>
+		<li>実行ボタンをタップすると、JSONが出力されます</li>
+		</ol>
+		<img src="./img/help38_02.png" width="667px" />
+
+
+		<h3>JSONのサンプル</h3>
+<pre><code>
+{
+    "uuid": "293F1B89-7C0A-4F37-AFE2-EC233B7098FD",
+    "name": "ランニング",
+    "activity": {
+        "name": "ランニング",
+        "type": 37
+    },
+    "startDate": "2025-12-04T06:19:58Z",
+    "endDate": "2025-12-04T06:26:00Z",
+    "source": "Zones",
+    "zones": {
+        "zone4": {
+            "name": "無酸素",
+            "rate": 0.0,
+            "time": {
+                "value": 0,
+                "unit": "sec"
+            }
+        },
+        "zone3": {
+            "name": "有酸素",
+            "rate": 1.0,
+            "time": {
+                "value": 362,
+                "unit": "sec"
+            }
+        },
+        "zone2": {
+            "name": "脂肪燃焼",
+            "rate": 0.0,
+            "time": {
+                "value": 0,
+                "unit": "sec"
+            }
+        },
+        "zone1": {
+            "name": "ウォームアップ",
+            "rate": 0.0,
+            "time": {
+                "value": 0,
+                "unit": "sec"
+            }
+        }
+    },
+    "duration": {
+        "value": 362,
+        "unit": "sec"
+    },
+    "activeCalories": {
+        "value": 42,
+        "unit": "kcal"
+    },
+    "distance": {
+        "value": 0.96,
+        "unit": "km"
+    },
+    "pace": {
+        "value": "6′13″",
+        "unit": "/km"
+    },
+    "averageIntensity": {
+        "value": 80,
+        "unit": "%"
+    },
+    "minIntensity": {
+        "value": 75,
+        "unit": "%"
+    },
+    "maxIntensity": {
+        "value": 83,
+        "unit": "%"
+    },
+    "averageMETs": {
+        "value": 9.6,
+        "unit": "METs"
+    },
+    "step": {
+        "value": 1079,
+        "unit": "歩"
+    },
+    "cadence": {
+        "value": 179,
+        "unit": "spm"
+    },
+    "runningPower": {
+        "value": 144,
+        "unit": "W"
+    },
+    "runningVerticalOscillation": {
+        "value": 7.9,
+        "unit": "cm"
+    },
+    "runningGroundContactTime": {
+        "value": 240,
+        "unit": "ms"
+    },
+    "runningStrideLength": {
+        "value": 0.9,
+        "unit": "m"
+    },
+    "runningPace": {
+        "value": "6′11″",
+        "unit": "/km"
+    },
+    "averageHeartRate": {
+        "value": 147,
+        "unit": "bpm"
+    },
+    "minHeartRate": {
+        "value": 139,
+        "unit": "bpm"
+    },
+    "maxHeartRate": {
+        "value": 155,
+        "unit": "bpm"
+    },
+    "weather": {
+        "condition": "曇り時々晴れ",
+        "symbol": "cloud",
+        "humidity": "57%",
+        "pressure": "1033 hPa",
+        "temperature": "17°C"
+    }
+}
+</code></pre>
+
+	</div><!-- content -->
+</div><!-- container container-help -->
+
+<div class="footer cf">
+	<div class="content">
+		<p class="copyright">© Flask LLP |  <a href="../../zones/help-38.html">English</a> / Japanese</p>
+	</div><!-- content -->
+</div>
+
+</body></html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+
+	<meta charset="utf-8"><title>Help | Zones</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="/zones/img/favicon.ico">
+	<link rel="apple-touch-icon" href="/zones/img/apple-touch-icon.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/normalize.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="en">
+
+<div class="container container-help">
+
+	<div class="navbar-top">
+		<div class="content">
+		<a href="help.html"><i class="fa fa-chevron-left"></i> Zones Help Index</a>
+		</div>
+	</div>
+
+	<div class="content">
+		<h1><i class="fa fa-smile-o"></i> Help</h1>
+
+		<h1>Data Export</h1>
+		<p>
+		You can export your workout data either through Apple Health or through the Zones app.<br>
+		<table>
+			<tr><th>App</th><th>Format</th><th>Data Range</th></tr>
+			<tr><td>Health</td><td>XML</td><td>All data</td></tr>
+			<tr><td>Zones</td><td>JSON</td><td>Per workout</td></tr>
+		</table>
+		</p>
+
+<h2>Exporting Data with Apple Health</h2>
+<p>
+You can export all of your Health data in XML format.
+</p>
+<ol>
+<li>Open the Apple Health app.</li>
+<li>Tap your profile icon.</li>
+<li>Select “Export All Health Data”</li>
+</ol>
+💡 <a href="https://support.apple.com/guide/iphone/share-your-health-data-iph5ede58c3d/ios/#iphe962dcbd2">[Apple Support] Share Health and Fitness data in XML format</a>
+
+<h2>Exporting Data with Zones</h2>
+<p>
+You can export your workout data as a JSON file.  
+This can also be done through the Shortcuts app.<br />
+Zones version 9 or later is required to use this feature.
+</p>
+
+<h3>Exporting from the App</h3>
+
+<h4>Steps</h4>
+<ol>
+<li>On the workout screen, tap the export button.</li>
+<li>Select “JSON File”</li>
+<li>The share sheet will appear.</li>
+</ol>
+<img src="./img/help38_01.png" width="667px" />
+
+<h3>Exporting via Shortcuts</h3>
+<p>When using Shortcuts, the most recent workout will be exported.</p>
+
+<h4>Steps</h4>
+<ol>
+<li>In the Shortcuts app, create a new shortcut and choose “Zones” from the action list.</li>
+<li>Select “Export Workout as JSON”</li>
+<li>Tap the Run button to export the JSON file.</li>
+</ol>
+<img src="./img/help38_02.png" width="667px" />
+
+<h3>JSON Sample</h3>
+ <pre><code>
+{
+    "uuid": "293F1B89-7C0A-4F37-AFE2-EC233B7098FD",
+    "name": "Running",
+    "activity": {
+        "name": "Running",
+        "type": 37
+    },
+    "startDate": "2025-12-04T06:19:58Z",
+    "endDate": "2025-12-04T06:26:00Z",
+    "source": "Zones",
+    "zones": {
+        "zone4": {
+            "name": "PEAK",
+            "rate": 0.0,
+            "time": {
+                "value": 0,
+                "unit": "sec"
+            }
+        },
+        "zone3": {
+            "name": "CARDIO",
+            "rate": 1.0,
+            "time": {
+                "value": 362,
+                "unit": "sec"
+            }
+        },
+        "zone2": {
+            "name": "FAT BURN",
+            "rate": 0.0,
+            "time": {
+                "value": 0,
+                "unit": "sec"
+            }
+        },
+        "zone1": {
+            "name": "WARM UP",
+            "rate": 0.0,
+            "time": {
+                "value": 0,
+                "unit": "sec"
+            }
+        }
+    },
+    "duration": {
+        "value": 362,
+        "unit": "sec"
+    },
+    "activeCalories": {
+        "value": 42,
+        "unit": "kcal"
+    },
+    "distance": {
+        "value": 0.96,
+        "unit": "km"
+    },
+    "pace": {
+        "value": "6′13″",
+        "unit": "/km"
+    },
+    "averageIntensity": {
+        "value": 80,
+        "unit": "%"
+    },
+    "minIntensity": {
+        "value": 75,
+        "unit": "%"
+    },
+    "maxIntensity": {
+        "value": 83,
+        "unit": "%"
+    },
+    "averageMETs": {
+        "value": 9.6,
+        "unit": "METs"
+    },
+    "step": {
+        "value": 1079,
+        "unit": "steps"
+    },
+    "cadence": {
+        "value": 179,
+        "unit": "spm"
+    },
+    "runningPower": {
+        "value": 144,
+        "unit": "W"
+    },
+    "runningVerticalOscillation": {
+        "value": 7.9,
+        "unit": "cm"
+    },
+    "runningGroundContactTime": {
+        "value": 240,
+        "unit": "ms"
+    },
+    "runningStrideLength": {
+        "value": 0.9,
+        "unit": "m"
+    },
+    "runningPace": {
+        "value": "6′11″",
+        "unit": "/km"
+    },
+    "averageHeartRate": {
+        "value": 147,
+        "unit": "bpm"
+    },
+    "minHeartRate": {
+        "value": 139,
+        "unit": "bpm"
+    },
+    "maxHeartRate": {
+        "value": 155,
+        "unit": "bpm"
+    },
+    "weather": {
+        "condition": "Mostly Cloudy",
+        "symbol": "cloud",
+        "humidity": "57%",
+        "pressure": "30.5 inHg",
+        "temperature": "63°F"
+    }
+}
+</code></pre>
+		
+		
+
+	</div><!-- content -->
+</div><!-- container container-help -->
+
+<div class="footer cf">
+	<div class="content">
+		<p class="copyright">© Flask LLP |  English / <a href="../ja/zones/help-38.html">Japanese</a></p>
+	</div><!-- content -->
+</div>
+
+</body></html>
