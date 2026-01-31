@@ -28,24 +28,17 @@
 <p>Important:<br>
 In Standland, moving around more than one minute (more than 80 steps) per hour counts as one stand.</p>
 
-<p>This app reads activity data from Apple's Health app (HealthKit) for counting stands.<br>
-• For Apple Watch users: Stand Hours (1 stand hour = 1 stand)<br>
-• For iPhone users: Steps (more than 80 steps per hour = 1 stand)</p>
+<p>The app uses a combination of Stand Hours and Steps for overall tracking.<br>
+If Stand Hour data is available, it takes priority. If not, the app uses Steps to determine stand status.<br>
+With Steps, walking 80 steps or more in an hour counts as one stand.<br>
 
-
-<h3>1. Check Data Source in Standland</h3>
-<p>Open Settings in Standland, and tap Data Source to choose.<br>
-If you are using Apple Watch, choose "Stand Hours". Otherwise, choose "Steps".<br>
-
-<p><img src="img/help03_01@2x.png" alt="Settings" width="500"></p>
-
-<h3>2. Check Permission in the Health App</h3>
+<h3>1. Check Permission in the Health App</h3>
 <p>Allow read permission in Apple's Health app.<br>
 <a href="help-01.html">Standland needs access to the Health app</a>
 </p>
 
 
-<h3>3. Check Data in the Health App</h3>
+<h3>2. Check Data in the Health App</h3>
 <p>If you allow the read permission and still there is no data, please open the Health app, and see if there is Steps data (or Stand Hours data if you use Apple Watch).<br>
 	If the Health app is unstable, third party apps cannot access the data.<br>
 	In that case, restarting your iPhone might fix the issue.<br>
@@ -60,15 +53,5 @@ If you are using Apple Watch, choose "Stand Hours". Otherwise, choose "Steps".<b
 		<p class="copyright">© Flask LLP |  <a href="../standland/help.html">English</a> / <a href="../ja/standland/help.html">Japanese</a></p>
 	</div><!-- content -->
 </div>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-44428360-1', 'flaskapp.com');
-  ga('send', 'pageview');
-</script>
 
 </body></html>

@@ -25,28 +25,19 @@
 
 		<h2>スタンド数が表示されません</h2>
 
-<p>Standlandでは、1時間に1分以上（歩数で80歩以上）歩くことで、1スタンドとカウントします。<br>
-iPhoneの「ヘルスケア」アプリから、iPhoneの場合は「歩数」を、Apple Watchユーザーの方は「スタンド時間」を読み込んで計算されています。<br>
-（ヘルスケアアプリにデータが記録されるまで、数分〜最大30分程度時間がかかることがあります）</p>
+<p>Standlandでは、スタンドのカウントにiOSヘルスケアの「スタンド時間」と「歩数」を合わせたデータを使用します。<br>
+「スタンド時間」のデータがある場合はそれを優先し、データがない時間帯のみ「歩数」からスタンドを判定します。<br>
+歩数による判定では、1時間に80歩以上で1スタンドとカウントされます。</p>
 
-<p><strong>歩数の場合は、1時間に80歩以上で1スタンドになりますので、まずは1時間に80歩以上歩いているかどうかをご確認ください。</strong><br>
-1時間に80歩以上歩いているのに、Standlandでスタンド数がカウントされない場合は、以下をご確認ください。</p>
+<p>ヘルスケアアプリにデータが記録されるまで、数分〜30分程度時間がかかることがあります。通信状況などの環境によって異なります。</p>
 
-<h3>1. Standlandの設定画面のデータ元の確認</h3>
+<h3>1.「ヘルスケア」アプリで読み出し許可の確認</h3>
 
-<p>Standlandの設定画面を開き、データ元として「歩数」（Apple Watchをご利用の方は「スタンド時間」）が、選択されていることをご確認ください。<br>
-違うデータ元になっている場合は、タップして切り替えてください。</p>
-
-<p><img src="../../standland/img/help03_01_ja@2x.png" alt="Standland 設定画面" width="500"></p>
-
-
-<h3>2.「ヘルスケア」アプリでデータの読み出しが許可の確認</h3>
-
-<p>Appleの「ヘルスケア」アプリで、データの読み出しが許可がされているかをご確認ください。<br>
+<p>Appleの「ヘルスケア」アプリで、Standlandへのデータの読み出しが許可がされているかをご確認ください。<br>
 	<a href="help-01.html"><i class="fa fa-caret-right"></i> 確認方法はこちら</a>
 </p>
 
-<h3>3. 「ヘルスケア」アプリ内のデータの確認</h3>
+<h3>2. 「ヘルスケア」アプリ内のデータの確認</h3>
 
 <p>Appleの「ヘルスケア」アプリを開き、で「歩数」（Apple Watchをご利用の方は「スタンド時間」）の数値がきちんと表示されているかご確認ください。</p>
 
@@ -73,15 +64,5 @@ iPhoneの「ヘルスケア」アプリから、iPhoneの場合は「歩数」�
 		<p class="copyright">© Flask LLP |  <a href="../../standland/help.html">English</a> / <a href="../../ja/standland/help.html">Japanese</a></p>
 	</div><!-- content -->
 </div>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-44428360-1', 'flaskapp.com');
-  ga('send', 'pageview');
-</script>
 
 </body></html>
